@@ -6,11 +6,11 @@ description: add a pdf view here
 
 ---
 
-## Daniel D. Junghans 
-(616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans
+<p style="text-align: center;"><font size="+3"> Daniel D. Junghans </font></p>
+<p style="text-align: center;">(616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans</p>
 ### Education
-Michigan State University <br />
-Broad College of Business <br />
+Michigan State University     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&ensp;     East Lansing, MI    
+Broad College of Business &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&emsp;08/18 – 05/21  
 Bachelor of Arts, Finance <br />
 Major GPA:3.625/4.00; Cumulative GPA: 3.78/4.00 <br />
 Dean's List 4 Semesters                                   
@@ -34,8 +34,8 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 •	Presented research at Mid-Michigan Symposium for Undergraduate Research (MID-SURE) (July 2019)
 
 ### Skills and Notable Coursework <br />
-•	Computer Concepts and Competencies (CSE) 101 <br />
-•	Principles of Financial Accounting (ACC) 201                          
-•	Business Analytics & Info Systems (ITM) 209                            
+•	Computer Concepts and Competencies (CSE) 101 &ensp; &ensp; &emsp; &ensp; &ensp; &emsp; &emsp; &ensp; &ensp; &emsp; &ensp; &emsp; &ensp; &nbsp; &emsp; 01/19 - 05/19 <br />
+•	Principles of Financial Accounting (ACC) 201 &emsp; &emsp; &emsp; &emsp; &ensp; &ensp; &emsp; &ensp; &emsp; &ensp; &ensp; &ensp; &emsp; &emsp; &emsp; &nbsp; 01/20 - 05/ 20                         
+•	Business Analytics & Info Systems (ITM) 209 &ensp; &ensp; &emsp; &ensp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; &ensp; &ensp; &ensp; &emsp; &emsp; 01/20 - 05/20                            
 •	Environment: PC, Windows, Linux <br />
 •	Languages: R, Python 3 <br />
