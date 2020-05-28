@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Daniel</strong> D. Junghans
+title: <strong>Daniel D. Junghans</strong> 
 description: <a href="">Undergraduate Finance Student at Michigan State University</a>  | danjunghans@gmail.com
 
 profile:
