@@ -23,7 +23,7 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 **Daniel Junghans**, Austin J. Ferguson, Alexander Lalejini, and Acacia Ackles. “Emerging Researchers in Artificial Life.” Workshop at International Conference for Artificial Life 2020, July 13-18, Montreal, Canada (accepted)
 ### Proffessional Experience
 *National Science Foundation’s BEACON Center* <br />
-**Research Assistant**     <br /> 
+**Research Assistant**   ******add dates  <br /> 
 •	Utilized the Neuroevolution of Augmenting Topologies architecture to predict the price of stocks in the spring semester of 2020.                                                                                  
 •	Researched how Lexicase Selection performs under a diagnostic that rewards exploration of the problem space for the fall semester of 2019. <br />
 •	Conducted research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez.
