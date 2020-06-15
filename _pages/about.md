@@ -6,7 +6,7 @@ description: Undergraduate Finance Student at Michigan State University | danjun
 
 profile:
   align: right
-  image: personalphoto.png
+  image: personalphoto.PNG
   address: >
     <p>Broad College of Business</p>
     <p>Department of Finance</p>
