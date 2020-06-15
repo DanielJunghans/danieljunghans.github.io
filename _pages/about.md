@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Daniel D. Junghans</strong> 
-description: Undergraduate Finance Student at Michigan State University | danjunghans@gmail.com
+description: (616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans
 
 profile:
   align: right
