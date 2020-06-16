@@ -6,8 +6,10 @@ description: add a pdf view here
 
 ---
 
-<p style="text-align: center;"><font size="+3"> Daniel D. Junghans </font></p>
+<h1 style="text-align: center;"><font size="+3"> Daniel D. Junghans </font></h1>
 <p style="text-align: center;">(616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans</p>
+---
+
 ### Education
 Michigan State University     &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&ensp;     East Lansing, MI    
 Broad College of Business &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&ensp;&emsp;08/18 – 05/21  
