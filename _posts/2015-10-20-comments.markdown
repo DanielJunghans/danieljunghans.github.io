@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NEAT Project
+title: NEAT Project Part 1
 date: 2020-6-16 2:13:00-0400
 description: 
 comments: false
