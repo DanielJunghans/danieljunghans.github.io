@@ -21,7 +21,7 @@ The stock data consists of basic historical trading data and technical indicator
 <p style="text-align: center;"><font size="+3">Neat-Python and Code</font></p>
 For this project I used the neat-python library. This library keeps track of all the unique nodes and connections while running experiments and is able to split up the population into species based on how similar the ANN structures are. When the code first starts running, the stock data is split up into a training dataset and a testing dataset. After running for N generations on the training dataset several things happen. First, the training dataset gets randomly shuffled and sampled. And secondly the code checks to see if the best ANNs fitness meets a set threshold. If the threshold is met, the best ANN is run on the entire testing dataset. The code then checks to see if the best ANN did well enough on the testing data to stop running, if not, the ANNs are run on the training dataset again. 
 
-<p style="text-align: left;"><font size="+3">Exploratory Runs</font></p>
+<p style="text-align: center;"><font size="+3">Exploratory Runs</font></p>
 After the initial code was written, I ran several exploratory runs to make sure the code worked properly and to understand how NEAT behaves. Before running the ANNs on stock data, I had them predict the sine wave. After they successfully predicted the sine wave I ran them on stock data and made adjustments to the configuration file. One of these adjustments was lowering the species compatibility threshold because all the species collapsed after running for a few thousand generations. 
 
 <p style="text-align: center;"><font size="+3">Current Experiments</font></p>
