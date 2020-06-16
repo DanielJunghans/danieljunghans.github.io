@@ -1,8 +1,32 @@
 ---
 layout: post
-title: a post with comments
-date: 2015-10-20 11:59:00-0400
-description: an example of a blog post with comments
-comments: true
+title: NEAT Project
+date: 2020-6-16 2:13:00-0400
+description: 
+comments: false
 ---
-This post shows how to add DISQUS comments.
+
+<p style="text-align: center;"><font size="+3">Introduction</font></p>
+Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in the BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict stock price? 
+
+<p style="text-align: center;"><font size="+3">NEAT</font></p>
+While researching ANNs, I was introduced to the Neural Evolution of Augmenting Topologies (NEAT). NEAT evolves the connection weights, node responses, node biases, and the structure of the ANNs. After reading Dr. Kenneth O. Stanely’s NEAT paper I decided to use NEAT to evolve my ANNs because its approach to evolution, speciation, and the different forms of mutation will aid my neural networks in the exploration of  the problem landscape. 
+
+<p style="text-align: center;"><font size="+3">Tesla Stock</font></p>
+When I started this project, I wanted to choose a stock that's had a recently volatile stock price. I want to try and predict a highly volatile stock price because an ANN would need to be highly versatile in order to cut through the noise of the stock market. I chose to use Tesla financial data because its stock price has been extremely volatile in recent weeks with a 52 week price range of $176.99 - $968.99. 
+
+<p style="text-align: center;"><font size="+3">Stock Data</font></p>
+The stock data consists of basic historical trading data and technical indicators. When making a prediction, ANNs have access to 19 inputs made up of the previous day's stock data. When deciding what financial data to use, the paper Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators helped me narrow down what technical indicators to use for this project. 
+
+<p style="text-align: center;"><font size="+3">Neat-Python and Code</font></p>
+For this project I used the neat-python library. This library keeps track of all the unique nodes and connections while running experiments and is able to split up the population into species based on how similar the ANN structures are. When the code first starts running, the stock data is split up into a training dataset and a testing dataset. After running for N generations on the training dataset several things happen. First, the training dataset gets randomly shuffled and sampled. And secondly the code checks to see if the best ANNs fitness meets a set threshold. If the threshold is met, the best ANN is run on the entire testing dataset. The code then checks to see if the best ANN did well enough on the testing data to stop running, if not, the ANNs are run on the training dataset again. 
+
+<p style="text-align: left;"><font size="+3">Exploratory Runs</font></p>
+After the initial code was written, I ran several exploratory runs to make sure the code worked properly and to understand how NEAT behaves. Before running the ANNs on stock data, I had them predict the sine wave. After they successfully predicted the sine wave I ran them on stock data and made adjustments to the configuration file. One of these adjustments was lowering the species compatibility threshold because all the species collapsed after running for a few thousand generations. 
+
+<p style="text-align: center;"><font size="+3">Current Experiments</font></p>
+My first experiment was to see if my ANNs could predict the stock price using an exponential activation function. After running the experiment for 48 hours, I graphed what it would look like to use the previous day's closing stock price as the prediction and compared it to the results. It was instantly clear that ANNs were doing worse than using the stock price from the day before for the prediction. I immediately set up an experiment where the ANNs were only given the stock price as the day before. After running this experiment, the ANNs were still performing worse. After adding more activation function options, The ANNs were able to perform better on the one input experiment.
+
+<p style="text-align: center;"><font size="+3">Future Work</font></p>
+For my future experiments, I plan on trying to predict the percent change in closing price. I will continue to use all of the financial data but must find a way to have my ANNs predict a negative change in closing price. Because I am unsure of the effect that normalization has on my results, I also plan on trying to predict the stock price utilizing data that hasn’t been normalized. 
+
