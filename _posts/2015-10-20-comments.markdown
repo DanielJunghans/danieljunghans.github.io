@@ -7,16 +7,17 @@ comments: false
 ---
 
 <p style="text-align: center;"><font size="+3">Introduction</font></p>
-Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in the BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict stock price? 
+Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in Michigan State University's BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict the closing price of a stock? 
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
-While researching ANNs, I was introduced to the Neural Evolution of Augmenting Topologies (NEAT). NEAT evolves the connection weights, node responses, node biases, and the structure of the ANNs. After reading Dr. Kenneth O. Stanely’s NEAT paper I decided to use NEAT to evolve my ANNs because its approach to evolution, speciation, and the different forms of mutation will aid my neural networks in the exploration of  the problem landscape. 
+While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving ANNs. I am using NEAT for this project because neuroevolution will help my neural networks explore the problem landscape.
 
 <p style="text-align: center;"><font size="+3">Tesla Stock</font></p>
-When I started this project, I wanted to choose a stock that's had a recently volatile stock price. I want to try and predict a highly volatile stock price because an ANN would need to be highly versatile in order to cut through the noise of the stock market. I chose to use Tesla financial data because its stock price has been extremely volatile in recent weeks with a 52 week price range of $176.99 - $968.99. 
+For this project, I am using a stock with a highly volatile price. I want to use a stock with a highly volatile price because I believe it will lead to more versatile and complex algorithms. The company I am using is $TSLA because it meets my volatility requirement with a 52 week price range is $211.00 - $1027.48. 
 
 <p style="text-align: center;"><font size="+3">Stock Data</font></p>
-The stock data consists of basic historical trading data and technical indicators. When making a prediction, ANNs have access to 19 inputs made up of the previous day's stock data. When deciding what financial data to use, the paper Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators helped me narrow down what technical indicators to use for this project. 
+The financial data consists of historical trading data and technical indicators. There are 19 variables in my dataset which serve as inputs for my ANNs. The financial data I decided to use for this research project was largely influenced by [this paper](https://www-mitpressjournals-org.proxy1.cl.msu.edu/doi/full/10.1162/neco_a_01124).
+
 
 <p style="text-align: center;"><font size="+3">Neat-Python and Code</font></p>
 For this project I used the neat-python library. This library keeps track of all the unique nodes and connections while running experiments and is able to split up the population into species based on how similar the ANN structures are. When the code first starts running, the stock data is split up into a training dataset and a testing dataset. After running for N generations on the training dataset several things happen. First, the training dataset gets randomly shuffled and sampled. And secondly the code checks to see if the best ANNs fitness meets a set threshold. If the threshold is met, the best ANN is run on the entire testing dataset. The code then checks to see if the best ANN did well enough on the testing data to stop running, if not, the ANNs are run on the training dataset again. 
