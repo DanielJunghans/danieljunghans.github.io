@@ -2,10 +2,10 @@
 layout: page
 permalink: /resume/
 title: resume
-description: add a pdf view here
+description: 
 
 ---
-
+[Open as a PDF](/assets/pdf/resume.pdf)
 <h1 style="text-align: center;"><font size="+3"> Daniel D. Junghans </font></h1>
 <p style="text-align: center;">(616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans</p>
 ---
@@ -24,13 +24,14 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 ### Workshops
 **Daniel Junghans**, Austin J. Ferguson, Alexander Lalejini, and Acacia Ackles. “Emerging Researchers in Artificial Life.” Workshop at International Conference for Artificial Life 2020, July 13-18, Montreal, Canada (accepted)
 ### Proffessional Experience
-*National Science Foundation’s BEACON Center* <br />
-**Research Assistant**   ******add dates  <br /> 
+*National Science Foundation’s BEACON Center*  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;08/19 - Present <br />
+**Research Assistant**     <br /> 
 •	Utilized the Neuroevolution of Augmenting Topologies architecture to predict the price of stocks in the spring semester of 2020.                                                                                  
 •	Researched how Lexicase Selection performs under a diagnostic that rewards exploration of the problem space for the fall semester of 2019. <br />
 •	Conducted research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez.
 <p></p>
-*Michigan State University Summer Research Opportunities Program (SROP)* <br />
+*Michigan State University Summer Research Opportunities Program (SROP)*  &emsp;&ensp;&ensp;&ensp;&ensp; 05/19 - 07/19     <br />
 **Summer Research Assistant** <br />
 •	Researched the selection process used by genetic algorithms under the supervision of Dr. Charles Ofria and graduate students Alexander Lalejini and Austin J. Ferguson. <br />
 •	Presented research at Mid-Michigan Symposium for Undergraduate Research (MID-SURE) (July 2019)
