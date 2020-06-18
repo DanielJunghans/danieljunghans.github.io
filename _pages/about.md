@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Daniel D. Junghans</strong> 
-description: (616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans
+description: danjunghans@gmail.com | linkedin.com/in/DanielJunghans | danieljunghans.com
 
 profile:
   align: right

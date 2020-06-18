@@ -7,7 +7,7 @@ description:
 ---
 [Open as a PDF](/assets/pdf/resume.pdf)
 <h1 style="text-align: center;"><font size="+3"> Daniel D. Junghans </font></h1>
-<p style="text-align: center;">(616)401-2003 | danjunghans@gmail.com | linkedin.com/in/DanielJunghans</p>
+<p style="text-align: center;">danjunghans@gmail.com | linkedin.com/in/DanielJunghans</p>
 ---
 
 ### Education
