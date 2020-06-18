@@ -59,13 +59,13 @@ It is instantly clear that the neural networks could not perform as well as the 
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
 </div>
 
-The neural networks clearly performed much better with access to all activation functions. Despite this improvement, the neural networks still failed to perform as well as using the closing price from the day before as the prediction. My second hypothesis was that normalizing the data made it dificult for the neural networks to identify important inputs. Here is the result of running the neural networks on un-normalized data:
+The neural networks clearly performed much better with access to all activation functions. Despite this improvement, the neural networks still failed to perform as well as using the closing price from the day before as the prediction. My second hypothesis was that normalizing the data made it dificult for the neural networks to identify important inputs. Here is the result of giving the neural networks access to all activation functions and running them on un-normalized data:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
 </div>
 
-After my most recent runs, my neural networks have finally started to do as well as using the closing price from the day before. The horizontal line added to the residual plot represents the average error when using the closing price from the day before as the prediction. 
+My neural networks are now doing as well as the closing price from the day before. The horizontal line added to the residual plot represents the day befores average error.
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch my neural networks from feed forward to recurrant. 
