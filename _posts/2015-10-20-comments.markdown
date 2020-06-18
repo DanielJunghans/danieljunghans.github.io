@@ -13,20 +13,46 @@ Hello! My name is Daniel Junghans. I am an undergraduate business student that i
 While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving ANNs. I am using NEAT for this project because neuroevolution will help my neural networks explore the problem landscape.
 
 <p style="text-align: center;"><font size="+3">Tesla Stock</font></p>
-For this project, I am using a stock with a highly volatile price. I want to use a stock with a highly volatile price because I believe it will lead to more versatile and complex algorithms. The company I am using is $TSLA because it meets my volatility requirement with a 52 week price range is $211.00 - $1027.48. 
+For this project, I am using a stock with a highly volatile price. I want to use a stock with a highly volatile price because I believe it will lead to more versatile and complex algorithms. The company I am using is $TSLA because it meets my volatility requirement with a 52 week price range of $211.00 - $1027.48. 
 
 <p style="text-align: center;"><font size="+3">Stock Data</font></p>
 The financial data consists of historical trading data and technical indicators. There are 19 variables in my dataset which serve as inputs for my ANNs. The financial data I decided to use for this research project was largely influenced by [this paper](https://www-mitpressjournals-org.proxy1.cl.msu.edu/doi/full/10.1162/neco_a_01124).
 
 
-<p style="text-align: center;"><font size="+3">Neat-Python and Code</font></p>
-For this project I used the neat-python library. This library keeps track of all the unique nodes and connections while running experiments and is able to split up the population into species based on how similar the ANN structures are. When the code first starts running, the stock data is split up into a training dataset and a testing dataset. After running for N generations on the training dataset several things happen. First, the training dataset gets randomly shuffled and sampled. And secondly the code checks to see if the best ANNs fitness meets a set threshold. If the threshold is met, the best ANN is run on the entire testing dataset. The code then checks to see if the best ANN did well enough on the testing data to stop running, if not, the ANNs are run on the training dataset again. 
+<p style="text-align: center;"><font size="+3">Neat-Python</font></p>
+
+I used the [neat-python](https://neat-python.readthedocs.io/en/latest/) implementation of NEAT for this project. Neat-python is a library with tools that maintain individual genomes (neural networks). These genomes are made up of genes that contain important information about the structure of the algorithm.
+
+<p style="text-align: center;"><font size="+3">Code</font></p>
+
+<h4>Training and Testing Data</h4>
+The first thing my program does is split my financial dataset into two pieces. The first 70% of the dataset becomes the training data, and the last 30% of the dataset becomes the testing data. <br />
+
+<h4>Fitness</h4>
+The training dataset is first randomly sampled. Then the neural networks produce outputs (closing price predictions) from the sampled data. While the neural networks produce outputs, their error
+is determined by subracting the output from the expected output ( closing stock price). 
+<br />
+<h4>Speciation and Reproduction</h4>
+Once the neural networks have completed the training dataset, they are divided up into species based on genomic distance (this is a measure of how similiar genomes are based on their structure). After all neural networks have been put in a species, parents are selected to produce offspring through sexual and asexual reproduction. These offspring will be the next generation of neural networks and have the opportunity to be mutated. This cycle of fitness determination, speciation, selection, reproduction, and mutation will continue for N generations. 
+<br />
+<h4>Testing Data</h4>
+After N generations, my code checks to see if the fitness for the best neural network is lower than a threshold that I set. 
+
+•	If the best neural network's fitness does not meet this threshold, then the neural networks continue to run on the training data for N generations. 
+
+•	When the best neural network does meet this fitness threshold, the best neural network is run on the entire testing dataset. The outputs (stock price predictions) are recorded, and my code checks to see if the neural network is good enough to stop running the program.  
+
 
 <p style="text-align: center;"><font size="+3">Exploratory Runs</font></p>
-After the initial code was written, I ran several exploratory runs to make sure the code worked properly and to understand how NEAT behaves. Before running the ANNs on stock data, I had them predict the sine wave. After they successfully predicted the sine wave I ran them on stock data and made adjustments to the configuration file. One of these adjustments was lowering the species compatibility threshold because all the species collapsed after running for a few thousand generations. 
+After I wrote the intial code, I ran several exploratory runs to make sure everything worked properly. These exploratory runs also helped me understand how NEAT behaves in different conditions. Before using financial data, I used numbers from a sine wave as inputs to see if my neural networks could predict the sine wave. The neural networks were successfull and I made several adjustments to my code. One of these adjustments was lowering the species compatibility threshold because I noticed that most species collapsed after a few hundered generations. 
 
 <p style="text-align: center;"><font size="+3">Current Experiments</font></p>
-My first experiment was to see if my ANNs could predict the stock price using an exponential activation function. After running the experiment for 48 hours, I graphed what it would look like to use the previous day's closing stock price as the prediction and compared it to the results. It was instantly clear that ANNs were doing worse than using the stock price from the day before for the prediction. I immediately set up an experiment where the ANNs were only given the stock price as the day before. After running this experiment, the ANNs were still performing worse. After adding more activation function options, The ANNs were able to perform better on the one input experiment.
+My most recent experiment was to see if my neural networks could predict the closing stock price using normalized data. After 48 hours, I graphed the best neural networks testing data predicitions for all 50 runs.
+
+
+ADD Picture here
+
+It was instantly clear that ANNs were doing worse than using the stock price from the day before for the prediction. I immediately set up an experiment where the ANNs were only given the stock price as the day before. After running this experiment, the ANNs were still performing worse. After adding more activation function options, The ANNs were able to perform better on the one input experiment.
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 For my future experiments, I plan on trying to predict the percent change in closing price. I will continue to use all of the financial data but must find a way to have my ANNs predict a negative change in closing price. Because I am unsure of the effect that normalization has on my results, I also plan on trying to predict the stock price utilizing data that hasn’t been normalized. 
