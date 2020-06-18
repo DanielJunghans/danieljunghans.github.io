@@ -47,13 +47,26 @@ After N generations, my code checks to see if the fitness for the best neural ne
 After I wrote the intial code, I ran several exploratory runs to make sure everything worked properly. These exploratory runs also helped me understand how NEAT behaves in different conditions. Before using financial data, I used numbers from a sine wave as inputs to see if my neural networks could predict the sine wave. The neural networks were successfull and I made several adjustments to my code. One of these adjustments was lowering the species compatibility threshold because I noticed that most species collapsed after a few hundered generations. 
 
 <p style="text-align: center;"><font size="+3">Current Experiments</font></p>
-My most recent experiment was to see if my neural networks could predict the closing stock price using normalized data. After 48 hours, I graphed the best neural networks testing data predicitions for all 50 runs.
+My first experiment was to see if my neural networks could predict the closing stock price using normalized data. I graphed the best neural networks testing data predicitions for all 50 runs. As a base line, I graphed what it would look like if you used the closing price for the day before as your prediction. 
 
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
+</div>
 
-ADD Picture here
+It is instantly clear that the neural networks could not perform as well as the closing price from the day before. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the neural networks one activation function hindered their ability to predict large numbers. After giving the neural networks access to all activation functions in the neat-python library, this was the result:
 
-It was instantly clear that ANNs were doing worse than using the stock price from the day before for the prediction. I immediately set up an experiment where the ANNs were only given the stock price as the day before. After running this experiment, the ANNs were still performing worse. After adding more activation function options, The ANNs were able to perform better on the one input experiment.
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
+</div>
+
+The neural networks clearly performed much better with access to all activation functions. Despite this improvement, the neural networks still failed to perform as well as using the closing price from the day before as the prediction. My second hypothesis was that normalizing the data made it dificult for the neural networks to identify important inputs. Here is the result of running the neural networks on un-normalized data:
+
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
+</div>
+
+After my most recent runs, my neural networks have finally started to do as well as using the closing price from the day before. The horizontal line added to the residual plot represents the average error when using the closing price from the day before as the prediction. 
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
-For my future experiments, I plan on trying to predict the percent change in closing price. I will continue to use all of the financial data but must find a way to have my ANNs predict a negative change in closing price. Because I am unsure of the effect that normalization has on my results, I also plan on trying to predict the stock price utilizing data that hasn’t been normalized. 
+This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch my neural networks from feed forward to recurrant. 
 
