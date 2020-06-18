@@ -68,5 +68,5 @@ The ANNs clearly performed much better with access to all activation functions. 
 My ANNs are now doing as well as the closing price from the day before. The horizontal line added to the residual plot represents the day befores average error.
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
-This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch from feed forward to recurrant neural netowrks. 
+This project has come quite far and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch from feed forward to recurrant neural netowrks. 
 
