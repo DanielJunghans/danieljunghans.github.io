@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Daniel D. Junghans</strong> 
-description: danjunghans@gmail.com | linkedin.com/in/DanielJunghans | danieljunghans.com
+description: danjunghans@gmail.com | linkedin.com/in/DanielJunghans 
 
 profile:
   align: right

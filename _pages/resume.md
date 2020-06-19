@@ -23,7 +23,7 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 
 ### Workshops
 **Daniel Junghans**, Austin J. Ferguson, Alexander Lalejini, and Acacia Ackles. “Emerging Researchers in Artificial Life.” Workshop at International Conference for Artificial Life 2020, July 13-18, Montreal, Canada (accepted)
-### Proffessional Experience
+### Professional Experience
 *National Science Foundation’s BEACON Center*  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 &emsp;&emsp;&emsp;&emsp;&emsp;08/19 - Present <br />
 **Research Assistant**     <br /> 
