@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications 
-description: 
+title: publications  
 years: [2020]
 ---
 Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lalejini, Emily Dolson, and Charles Ofria. “Characterizing the Effects of Random Subsampling on Lexicase Selection.” In Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds) Genetic Programming Theory and Practice XVII (2020).
