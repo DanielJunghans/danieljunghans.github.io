@@ -10,10 +10,30 @@ comments: false
 Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in Michigan State University's BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict the closing price of a stock? 
 
 <p style="text-align: center;"><font size="+3">Artificial Neural Networks</font></p>
-ANNs loosely resemble a brain and are made up of densely interconnected nodes. Instead of neurons and synapses, ANNs utilize artificial neurons (nodes) and connections.   
+ANNs are inspired by biological brain and are made up of densely interconnected nodes. Instead of neurons and synapses, ANNs utilize artificial neurons (nodes) and connections. 
+
+
+Add ANN photo here
+
+The purpose of a connection is to transmit a signal to one or several nodes. This signal will be in the form of a real number. Nodes plug the sum of all recieved signals into a non-linear function (activation function). The result of the function will serve as the nodes output and may be transmitted as a signal to other nodes.
+
+Add ANN photo here 
+
+
+All connections have a signal strength that changes as ANNS begin to learn. The signal strength is controlled by a weight commonly known as a bias. As ANNs begin to learn, the signal strength of connections is increased or decreased by the connection's bias. 
+
+
+
+ NOTE Mention how traditional neural networks only evolve weights on connections
+
+
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
-While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving ANNs. I am using NEAT for this project because neuroevolution will help my ANNs explore the problem landscape.
+While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving the structure ANNs. I am using NEAT for this project because neuroevolution will help my ANNs explore the problem landscape.
+
+
+NOTE mention how neat evolves the structure by adding/deleting connections/nodes .... Unlike traditional ANNs, NEAT
+
 
 <p style="text-align: center;"><font size="+3">Tesla Stock</font></p>
 For this project, I am using a stock with a highly volatile price. I want to use a stock with a highly volatile price because I believe it will lead to more versatile and complex algorithms. The company I am using is $TSLA because it meets my volatility requirement with a 52-week price range of $211.00 - $1027.48. 
