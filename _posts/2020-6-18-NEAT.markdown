@@ -5,12 +5,13 @@ date: 2020-6-18 2:13:00-0400
 description: 
 comments: false
 ---
+**page under construction**
 
 <p style="text-align: center;"><font size="+3">Introduction</font></p>
 Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in Michigan State University's BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict the closing price of a stock? 
 
 <p style="text-align: center;"><font size="+3">Artificial Neural Networks</font></p>
-ANNs are inspired by biological brain and are made up of densely interconnected nodes. Instead of neurons and synapses, ANNs utilize artificial neurons (nodes) and connections. 
+ANNs are inspired by biological brains and are made up of densely interconnected nodes. Instead of neurons and synapses, ANNs utilize artificial neurons (nodes) and connections. 
 
 
 Add ANN photo here
