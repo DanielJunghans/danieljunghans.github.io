@@ -21,15 +21,17 @@ ANNs are inspired by biological brains and are made up of densely interconnected
 <h4>Input Layer</h4>
 All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. 
 <h4>Connections</h4>
-The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight or "bias". The purpose of this is to strengthen or weaken a signal. Neural networks learn by evolving their connection weights. As ANNs learn, the signals from important nodes/inputs will become stronger as unimportant signals become weaker. 
+The lines connecting the inputs and nodes are called connections. These connections transmit information in the form of real numbers between units. Each connection has its own weight. The purpose of connections weights is to either strengthen or weaken the value that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as unimportant connections become weaker. 
 
 <h4>Hidden Layers</h4>
-The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layer
+The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layer sum up all the values recieved from connections and plug the result into a non-linear function.  
 
+*Talk about summing all the inputs and node bias
+*talk about activation functions 
 
 
 <h4>Output Layer</h4>
-finish up these two sections then replace price from the day before with the word "baseline"
+finish up these two sections 
 
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
@@ -74,25 +76,25 @@ After N generations, my code checks to see if the best ANN meets my performance 
 After I wrote the initial code, I ran several exploratory runs to make sure everything worked properly. These exploratory runs also helped me understand how NEAT behaves in different conditions. Before using financial data, I used numbers from a sine wave as inputs to see if my ANNs could predict the sine wave. The ANNs were successful and I made several adjustments to my code. One of these adjustments was lowering the species compatibility threshold because I noticed that most species collapsed after a few hundred generations. 
 
 <p style="text-align: center;"><font size="+3">Current Experiments</font></p>
-My first experiment was to see if my ANNs could predict the closing stock price using normalized data. I graphed the best ANNs testing data predictions for all 50 runs. As a base line, I graphed what it would look like if you used the closing price for the day before as your prediction. 
+My first experiment was to see if my ANNs could predict the closing stock price using normalized data. I graphed the best ANNs testing data predictions for all 50 runs. As a base line, I chose to use yesterdays closing price as the current days prediction. 
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
 </div>
 
-It is instantly clear that the ANNs could not perform as well as the closing price from the day before. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one activation function hindered their ability to predict large numbers. After giving the ANNs access to all activation functions in the neat-python library, this was the result:
+It is instantly clear that the ANNs could not perform as well as baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one activation function hindered their ability to predict large numbers. After giving the ANNs access to all activation functions in the neat-python library, this was the result:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
 </div>
 
-The ANNs clearly performed much better with access to all activation functions. Despite this improvement, the ANNs still failed to perform as well as using the closing price from the day before as the prediction. My second hypothesis was that normalizing the data made it difficult for the ANNs to identify important inputs. Here is the result of giving the ANNs access to all activation functions and running them on un-normalized data:
+The ANNs clearly performed much better with access to all activation functions. Despite this improvement, the ANNs still failed to perform as well as the baseline. My second hypothesis was that normalizing the data made it difficult for the ANNs to identify important inputs. Here is the result of giving the ANNs access to all activation functions and running them on un-normalized data:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
 </div>
 
-My ANNs are now doing as well as the closing price from the day before. The horizontal line added to the residual plot represents the average error for the day before. 
+My ANNs are now doing as well as the baseline. The horizontal line added to the residual plot represents the average error for my baseline. 
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch from feed forward to recurrent neural networks. 
