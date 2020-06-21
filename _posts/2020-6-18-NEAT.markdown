@@ -15,7 +15,7 @@ ANNs are inspired by biological brains and are made up of densely interconnected
 
 
 <div class="img">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/neuralnetwork.PNG">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/neuralnetwork.png">
 </div>
 
 <h4>Input Layer</h4>
