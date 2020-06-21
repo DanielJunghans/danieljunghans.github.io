@@ -11,22 +11,25 @@ comments: false
 Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in Michigan State University's BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict the closing price of a stock? 
 
 <p style="text-align: center;"><font size="+3">Artificial Neural Networks</font></p>
-ANNs are inspired by biological brains and are made up of densely interconnected nodes. Instead of neurons and synapses, ANNs utilize artificial neurons (nodes) and connections. 
+ANNs are inspired by biological brains and are made up of densely interconnected nodes. Instead of neurons and synapses, ANNs utilize artificial neurons (nodes) and connections.      
 
 
-Add ANN photo here
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/neuralnetwork.PNG">
+</div>
 
-The purpose of a connection is to transmit a signal to one or several nodes. This signal will be in the form of a real number. Nodes plug the sum of all recieved signals into a non-linear function (activation function). The result of the function will serve as the nodes output and may be transmitted as a signal to other nodes.
+<h4>Input Layer</h4>
+All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. 
+<h4>Connections</h4>
+The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight or "bias". The purpose of this is to strengthen or weaken a signal. Neural networks learn by evolving their connection weights. As ANNs learn, the signals from important nodes/inputs will become stronger as unimportant signals become weaker. 
 
-Add ANN photo here 
-
-
-All connections have a signal strength that changes as ANNS begin to learn. The signal strength is controlled by a weight commonly known as a bias. As ANNs begin to learn, the signal strength of connections is increased or decreased by the connection's bias. 
+<h4>Hidden Layers</h4>
+The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layer
 
 
 
- NOTE Mention how traditional neural networks only evolve weights on connections
-
+<h4>Output Layer</h4>
+finish up these two sections then replace price from the day before with the word "baseline"
 
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
