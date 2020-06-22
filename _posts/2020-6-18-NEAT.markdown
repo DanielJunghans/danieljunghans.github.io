@@ -28,7 +28,7 @@ The second type of layer is the hidden layers. The hidden layers come before the
 
 ##ADD Photo
 
-A activation function is a non-linear function used by nodes in order to produce a output. An common example of a activation funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the activation function. A example of this ........ 
+A activation function is a non-linear function used by nodes in order to produce a output. A common example of a activation funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the activation function. A example of this ........ 
 
 ##ADD Photo of activation function being shifted and the output being changed
 
