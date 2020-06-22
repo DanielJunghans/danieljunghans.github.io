@@ -19,18 +19,22 @@ ANNs are inspired by biological brains and are made up of densely interconnected
 </div>
 
 <h4>Input Layer</h4>
-All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. 
+All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using for this project, scroll down to the Stock Data section. 
+
 <h4>Connections</h4>
 The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
 
 <h4>Hidden Layers</h4>
-The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in a activation function.
+The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in a Activation Function.
 
 ##ADD Photo
 
-A activation function is a non-linear function used by nodes in order to produce a output. A common example of a activation funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the activation function. A example of this ........ 
 
-##ADD Photo of activation function being shifted and the output being changed
+
+An Activation Function is a non-linear function used by nodes in order to produce a output. A common example of a Activation Funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the Activation Function. The bias acts very similarily to the constant b in the linear function: y = ax + b. 
+
+##talk about when you move the constant b, the y intercept changes 
+##briefly talk about why adding bias helps the neural networks during the learning process
 
 <h4>Output Layer</h4>
 The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputing the closing price prediction.
@@ -85,13 +89,13 @@ My first experiment was to see if my ANNs could predict the closing stock price 
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
 </div>
 
-It is instantly clear that the ANNs could not perform as well as baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one activation function hindered their ability to predict large numbers. After giving the ANNs access to all activation functions in the neat-python library, this was the result:
+It is instantly clear that the ANNs could not perform as well as baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one Activation Function hindered their ability to predict large numbers. After giving the ANNs access to all Activation Functions in the neat-python library, this was the result:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
 </div>
 
-The ANNs clearly performed much better with access to all activation functions. Despite this improvement, the ANNs still failed to perform as well as the baseline. My second hypothesis was that normalizing the data made it difficult for the ANNs to identify important inputs. Here is the result of giving the ANNs access to all activation functions and running them on un-normalized data:
+The ANNs clearly performed much better with access to all Activation Functions. Despite this improvement, the ANNs still failed to perform as well as the baseline. My second hypothesis was that normalizing the data made it difficult for the ANNs to identify important inputs. Here is the result of giving the ANNs access to all Activation Functions and running them on un-normalized data:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
