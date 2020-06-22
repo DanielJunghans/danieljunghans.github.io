@@ -21,17 +21,20 @@ ANNs are inspired by biological brains and are made up of densely interconnected
 <h4>Input Layer</h4>
 All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. 
 <h4>Connections</h4>
-The lines connecting the inputs and nodes are called connections. These connections transmit information in the form of real numbers between units. Each connection has its own weight. The purpose of connections weights is to either strengthen or weaken the value that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
+The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
 
 <h4>Hidden Layers</h4>
-The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layer sum up all the values recieved from connections and plug the result into a non-linear function.  
+The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in a activation function.
 
-*Talk about summing all the inputs and node bias
-*talk about activation functions 
+##ADD Photo
 
+A activation function is a non-linear function used by nodes in order to produce a output. An common example of a activation funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the activation function. A example of this ........ 
+
+##ADD Photo of activation function being shifted and the output being changed
 
 <h4>Output Layer</h4>
-finish up these two sections 
+The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputing the closing price prediction.
+
 
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
