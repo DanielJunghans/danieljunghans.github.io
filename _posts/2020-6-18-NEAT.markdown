@@ -33,7 +33,8 @@ The second type of layer is the hidden layers. The hidden layers come before the
 
 An Activation Function is a non-linear function used by nodes in order to produce a output. A common example of a Activation Funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the Activation Function. The bias acts very similarily to the constant b in the linear function: y = ax + b. 
 
-##talk about when you move the constant b, the y intercept changes 
+##talk about when you move the constant b, the y intercept changes and the line is shifted
+
 ##briefly talk about why adding bias helps the neural networks during the learning process
 
 <h4>Output Layer</h4>
@@ -89,7 +90,7 @@ My first experiment was to see if my ANNs could predict the closing stock price 
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
 </div>
 
-It is instantly clear that the ANNs could not perform as well as baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one Activation Function hindered their ability to predict large numbers. After giving the ANNs access to all Activation Functions in the neat-python library, this was the result:
+It is instantly clear that the ANNs could not perform as well as the baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one Activation Function hindered their ability to predict large numbers. After giving the ANNs access to all Activation Functions in the neat-python library, this was the result:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
