@@ -5,7 +5,6 @@ date: 2020-6-18 2:13:00-0400
 description: 
 comments: false
 ---
-**page under construction**
 
 <p style="text-align: center;"><font size="+3">Introduction</font></p>
 Hello! My name is Daniel Junghans. I am an undergraduate business student that is working in Michigan State University's BEACON Center under the supervision of Dr. Charles Ofria. I began my current research project with a simple question: can I evolve an artificial neural network (ANN) to accurately predict the closing price of a stock? 
@@ -25,17 +24,15 @@ All ANNs are made up of 3 types of layers. The first layer is the input layer. T
 The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
 
 <h4>Hidden Layers</h4>
-The second type of layer is the hidden layers. The hidden layers come before the output and is where all the computation is done. The nodes that make up the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in a Activation Function.
+The hidden layers come after the input layer and is where all the computation is done. The nodes that are located in these hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in an Activation Function.
 
-##ADD Photo
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/node.png">
+</div>
 
 
+An Activation Function is a non-linear function used by nodes in order to produce a output. A common example of an Activation Funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarily to the constant b in the linear function: y=ax+b. When the constant b is changed, the line will move up or down changing the y-axis. Moving an Activation Function greatly impacts the output of a node which may be usefull in the learning process. 
 
-An Activation Function is a non-linear function used by nodes in order to produce a output. A common example of a Activation Funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to shift the Activation Function. The bias acts very similarily to the constant b in the linear function: y = ax + b. 
-
-##talk about when you move the constant b, the y intercept changes and the line is shifted
-
-##briefly talk about why adding bias helps the neural networks during the learning process
 
 <h4>Output Layer</h4>
 The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputing the closing price prediction.
@@ -43,10 +40,7 @@ The output layer is that last set of nodes that produce outputs. My ANNs will on
 
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
-While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving the structure ANNs. I am using NEAT for this project because neuroevolution will help my ANNs explore the problem landscape.
-
-
-NOTE mention how neat evolves the structure by adding/deleting connections/nodes .... Unlike traditional ANNs, NEAT
+While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving the structure ANNs. Unlike traditional ANNs that only adjust connection weights, NEAT gives ANNS the ability to adjust nodes, weights, and connections. The NEAT approach allows ANNS to add or delete connections and nodes. Stock market data is extremely noisy and allowing the structure of my ANNs to change may give them a competitive advantage. 
 
 
 <p style="text-align: center;"><font size="+3">Tesla Stock</font></p>
