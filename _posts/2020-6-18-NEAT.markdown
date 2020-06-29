@@ -18,24 +18,23 @@ ANNs are inspired by biological brains and are made up of densely interconnected
 </div>
 
 <h4>Input Layer</h4>
-All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using for this project, scroll down to the Stock Data section. 
+All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data used by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using, scroll down to the Stock Data section. 
 
 <h4>Connections</h4>
 The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
 
 <h4>Hidden Layers</h4>
-The hidden layers come after the input layer and is where all the computation is done. The nodes that are located in these hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in an Activation Function.
+The hidden layers come after the input layer and is where all the computation is done. The nodes that are in the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in an Activation Function.
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/node.png">
 </div>
 
 
-An Activation Function is a non-linear function used by nodes in order to produce a output. A common example of an Activation Funciton would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarily to the constant b in the linear function: y=ax+b. When the constant b is changed, the line will move up or down changing the y-axis. Moving an Activation Function greatly impacts the output of a node which may be usefull in the learning process. 
-
+An Activation Function is a non-linear function used by nodes to produce an output. A common example of an Activation Function would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarly to the constant b in the linear function: y=ax+b. When the constant b is changed, the line will move up or down changing the y-axis. Moving an Activation Function greatly impacts the output of a node which may be useful in the learning process. 
 
 <h4>Output Layer</h4>
-The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputing the closing price prediction.
+The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputting the closing price prediction.
 
 
 
@@ -78,7 +77,7 @@ After N generations, my code checks to see if the best ANN meets my performance 
 After I wrote the initial code, I ran several exploratory runs to make sure everything worked properly. These exploratory runs also helped me understand how NEAT behaves in different conditions. Before using financial data, I used numbers from a sine wave as inputs to see if my ANNs could predict the sine wave. The ANNs were successful and I made several adjustments to my code. One of these adjustments was lowering the species compatibility threshold because I noticed that most species collapsed after a few hundred generations. 
 
 <p style="text-align: center;"><font size="+3">Current Experiments</font></p>
-My first experiment was to see if my ANNs could predict the closing stock price using normalized data. I graphed the best ANNs testing data predictions for all 50 runs. As a base line, I chose to use yesterdays closing price as the current days prediction. 
+My first experiment was to see if my ANNs could predict the closing stock price using normalized data. I graphed the best ANNs testing data predictions for all 50 runs. As a base line, I chose to use yesterday's closing price as the current day's prediction. 
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
