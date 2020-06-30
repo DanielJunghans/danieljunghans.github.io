@@ -17,11 +17,16 @@ ANNs are inspired by biological brains and are made up of densely interconnected
     <img class="col three" src="{{ site.baseurl }}/assets/img/neuralnetwork.png">
 </div>
 
+<p style="text-align: center;"><i><strong>Figure 1</strong> Visual representation of a artificial neural network. The circles represent nodes and the lines connecting the nodes are connections. </i></p>
+
+
+<br />
+
 <h4>Input Layer</h4>
-All ANNs are made up of 3 types of layers. The first layer is the input layer. This is initial data is read by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using, scroll down to the [Stock Data section](#stock). 
+All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data that is read by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using, scroll down to the [Stock Data section](#stock). 
 
 <h4>Connections</h4>
-The lines connecting the inputs and nodes are called connections. These connections transmit signals in the form of real numbers. Each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
+Connections transmit signals in the form of real numbers and each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
 
 <h4>Hidden Layers</h4>
 The hidden layers come after the input layer and is where all the computation is done. The nodes that are in the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in an Activation Function.
@@ -30,7 +35,9 @@ The hidden layers come after the input layer and is where all the computation is
     <img class="col three" src="{{ site.baseurl }}/assets/img/node.png">
 </div>
 
+<p style="text-align: center;"><i><strong>Figure 2</strong> Visual representation of a node.</i></p>
 
+<br />
 An Activation Function is a non-linear function used by nodes to produce an output. A common example of an Activation Function would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarly to the constant b in the linear function: *y=ax+b*. When the constant *b* is changed, the line will move up or down changing the *y-axis*. Moving an Activation Function greatly impacts the output of a node which may be useful in the learning process. 
 
 <h4>Output Layer</h4>
