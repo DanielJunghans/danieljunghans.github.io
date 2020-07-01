@@ -8,7 +8,7 @@ img: /assets/img/graph6.PNG
 
 <br />
 <p style="text-align: center;"><font size="+3">Introduction</font></p>
-In May of 2020, I completed my first financial accounting course at Michigan State University's Broad college of business. This course motivated me to learn more about the inner mechanisms and cashflows of businesses. I started to look through company financial statements on yahoo finance but was quickly overwhelmed. The amount of time needed to look through financial statements and to calculate financial ratios was enormous. After discovering this problem, I started this project in the hopes of building a tool that would help me more effectivily research securities.
+In May of 2020, I completed my first financial accounting course at Michigan State University's Broad college of business. This course motivated me to learn more about the inner mechanisms and cashflows of businesses. I started to look through company financial statements on yahoo finance but was quickly overwhelmed. The amount of time needed to look through financial statements and to calculate financial ratios was enormous. After discovering this problem, I started this project in the hopes of building a tool that would help me more effectively  research securities.
 
 
 <p style="text-align: center;"><font size="+3">The Tool</font></p>
@@ -30,9 +30,11 @@ I started this project by researching different python libraries that scrape dat
 •	Times Interest Earned Ratio<br />
 •	Quality of Income Ratio<br />
 
-All of this financial data is recorded and exported into a CSV file. This CSV can then be used for further analysis. Here is a example of how I used financial data produced by my tool:  
+All this financial data is recorded and exported into a CSV file. This CSV can then be used for further analysis. Here is a example of how I used financial data produced by my tool:  
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph7.PNG">
 </div>
 Each square represents a different company (The labels are the company's ticker symbol). The larger the square, the larger the current ratio. The color for this figure represents the quality of income ratio. A company with a high quality of income will be dark blue, and a company with a low quality of income will be a shade of orange. This graph is very informative and shows company liquidity and cash flows compared to net income. 
+
+[Here is a link to the github repository!](https://github.com/DanielJunghans/SecuritiesResearch)
