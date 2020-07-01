@@ -53,7 +53,7 @@ While researching ANNs, I was introduced to the [Neural Evolution of Augmenting 
 For this project, I am using a stock with a highly volatile price. I want to use a stock with a highly volatile price because I believe it will lead to more versatile and complex algorithms. I chose to train on [$TSLA](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch) because it meets my volatility requirement with a 52-week price range of $211.00 - $1027.48. 
 
 <p style="text-align: center;"><font size="+3">Stock Data</font></p>
-The financial data consists of historical trading data and technical indicators. There are 19 variables in my dataset which serve as inputs for my ANNs. The financial data I decided to use for this research project was largely influenced by [*Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators*](https://www-mitpressjournals-org.proxy1.cl.msu.edu/doi/full/10.1162/neco_a_01124).
+The financial data consists of historical trading data and technical indicators. There are 19 variables in my dataset which serve as inputs for my ANNs. The financial data I decided to use for this research project was largely influenced by [*Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators*](https://www-mitpressjournals-org.proxy1.cl.msu.edu/doi/full/10.1162/neco_a_01124). The historical trading data was downloaded from yahoo finance. 
 
 
 <p style="text-align: center;"><font size="+3">Neat-Python</font></p>
@@ -84,25 +84,31 @@ After *N* generations, my code checks to see if the best ANN meets my performanc
 After I wrote the initial code, I ran several exploratory runs to make sure everything worked properly. These exploratory runs also helped me understand how NEAT behaves in different conditions. Before using financial data, I used numbers from a sine wave as inputs to see if my ANNs could predict the sine wave. The ANNs were successful and I made several adjustments to my code. One of these adjustments was lowering the species compatibility threshold because I noticed that most species collapsed after a few hundred generations. 
 
 <p style="text-align: center;"><font size="+3">Current Experiments</font></p>
-My first experiment was to see if my ANNs could predict the closing stock price using normalized data. I graphed the best ANNs testing data predictions for all 50 runs. As a baseline, I chose to use yesterday's closing price as the current day's prediction. 
+My first experiment was to see if my ANNs could predict the closing stock price using normalized data. I graphed the best ANNs testing data predictions for all 50 runs. As a baseline, I chose to use yesterday's closing price as the current day's prediction. The baseline will be represented with red dots in Figures 3 through 5. 
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
 </div>
+<p style="text-align: center;"><i><strong>Figure 3</strong> Artificial neural network testing data results after 15,000 generations for all 50 runs.</i></p>
+<br />
 
-It is instantly clear that the ANNs could not perform as well as the baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one Activation Function hindered their ability to predict large numbers. After giving the ANNs access to all Activation Functions in the neat-python library, this was the result:
+When looking at Figure 3, it is clear the ANNs could not perform as well as the baseline. I started to investigate what could cause this problem and came up with several hypotheses. My first hypothesis was that only giving the ANNs one Activation Function hindered their ability to predict large numbers. After giving the ANNs access to all Activation Functions in the neat-python library, this was the result:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
 </div>
+<p style="text-align: center;"><i><strong>Figure 4</strong> Artificial neural network testing data results after 20,000 generations for all 50 runs. </i></p>
+<br />
 
-The ANNs clearly performed much better with access to all Activation Functions. Despite this improvement, the ANNs still failed to perform as well as the baseline. My second hypothesis was that normalizing the data made it difficult for the ANNs to identify important inputs. Here is the result of giving the ANNs access to all Activation Functions and running them on un-normalized data:
+compared to the previous experiment, the ANNs clearly performed much better with access to all Activation Functions. Despite this improvement, the ANNs still failed to outperform the baseline as shown in Figure 4. My second hypothesis was that normalizing the data made it difficult for the ANNs to identify important inputs. Here is the result of giving the ANNs access to all Activation Functions and running them on un-normalized data:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
 </div>
+<p style="text-align: center;"><i><strong>Figure 5</strong> Artificial neural network testing data results after 15000 generations for all 50 runs.</i></p>
+<br />
 
-My ANNs are now doing as well as the baseline. The horizontal line added to the residual plot represents the average error for my baseline. 
+When looking at Figure 5, it is now obvious that my ANNs are doing as well as the baseline. For Figure 5, I added a horizontal line to the residual plot to show the average error for my baseline.
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch from feed forward to recurrent neural networks. 
