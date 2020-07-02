@@ -34,14 +34,18 @@ My first experiment was to see if my ANNs could predict the closing stock price 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
 </div>
-
+The neural networks could not perform as well as the baseline. For my next experiment, I gave my ANNs access to every activation function in the neat-python library. The were the results for all 50 runs after 20,000 generations:
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
 </div>
+It is clear that the neural networks improved, but they still failed to surpass the baseline. My next experiment was to run all the ANNs on a un-normalized dataset. This was the result for all 50 runs after 15,000 generations:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
 </div>
+
+for this figure, I added a horizontal line to the residual plot to show the average error for my baseline. After this experiment, I noticed that all of my ANNs were performing about as well as the baseline. This told me that my ANNs were not very complex and were using the same strategy of my baseline. 
+
 
 [Here is a link to the github repository!](https://github.com/DanielJunghans/NEAT_Project)
 
