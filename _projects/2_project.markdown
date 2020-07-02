@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Securities Research
-description: A python tool for securities research
+description: Building A python tool for securities research
 img: /assets/img/graph6.PNG
 ---
 
