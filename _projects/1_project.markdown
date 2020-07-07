@@ -44,9 +44,10 @@ The neural networks improved, but they still failed to surpass the baseline. My 
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
 </div>
 
-for this figure, I added a horizontal line to the residual plot to show the average error for my baseline. After this experiment, I noticed that all of my ANNs were performing about as well as the baseline. This told me that my ANNs were not very complex and were using the baseline strategy. 
+for this figure, I added a horizontal line to the residual plot to show the average error for my baseline. After this experiment, I noticed that all my ANNs were performing about as well as the baseline. This told me that my ANNs were not very complex and were using the baseline strategy. 
+
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
-For my future work, I plan on doing several experiments adjusting the node bias range. I believe that changing the node bias range could assist certain activation functions in the learning process. I also want to explore different datasets. The dataset I am using now relies heavily on historical analysis. Instead of relying on historical analysis, I may want to use historical trading data of a stock and market returns. In order to do this, I believe that a stock with a beta close to 1 or -1 would be required.  
+For my future work, I plan on doing several experiments adjusting the node bias range. I believe that changing the node bias range could assist certain activation functions in the learning process. I also want to explore different datasets. The dataset I am using now relies heavily on historical analysis. Instead of relying on historical analysis, I may want to use historical trading data of a stock and market returns. To do this, I believe that a stock with a beta close to 1 or -1 would be required.  
 
   
 [Here is a link to the github repository!](https://github.com/DanielJunghans/NEAT_Project)
