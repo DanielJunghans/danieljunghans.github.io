@@ -34,11 +34,11 @@ My first experiment was to see if my ANNs could predict the closing stock price 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph1.PNG">
 </div>
-The neural networks could not perform as well as the baseline. For my next experiment, I gave my ANNs access to every activation function in the neat-python library. The were the results for all 50 runs after 20,000 generations:
+The neural networks could not perform as well as the baseline. For my next experiment, I gave my ANNs access to every activation function in the neat-python library. Here are the results for all 50 runs after 20,000 generations:
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph2.PNG">
 </div>
-It is clear that the neural networks improved, but they still failed to surpass the baseline. My next experiment was to run all the ANNs on a un-normalized dataset. This was the result for all 50 runs after 15,000 generations:
+The neural networks improved, but they still failed to surpass the baseline. My next experiment was to run all the ANNs on a un-normalized dataset. This was the result for all 50 runs after 15,000 generations:
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">

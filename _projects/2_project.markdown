@@ -8,7 +8,7 @@ img: /assets/img/graph6.PNG
 
 <br />
 <p style="text-align: center;"><font size="+3">Introduction</font></p>
-In May of 2020, I completed my first financial accounting course at Michigan State University's Broad college of business. This course motivated me to learn more about the inner mechanisms and cashflows of businesses. I started to look through company financial statements on yahoo finance but was quickly overwhelmed. The amount of time needed to look through financial statements and to calculate financial ratios was enormous. After discovering this problem, I started this project in the hopes of building a tool that would help me more effectively  research securities.
+In May of 2020, I completed my first financial accounting course at Michigan State University's Broad college of business. This course motivated me to learn more about the inner mechanisms and cashflows of businesses. I started to look through company financial statements on yahoo finance but was quickly overwhelmed. The amount of time needed to look through financial statements and to calculate financial ratios was enormous. After discovering this problem, I started this project in the hopes of building a tool that would help me more effectively research securities.
 
 
 <p style="text-align: center;"><font size="+3">The Tool</font></p>
@@ -30,7 +30,7 @@ I started this project by researching different python libraries that scrape dat
 •	Times Interest Earned Ratio<br />
 •	Quality of Income Ratio<br />
 
-All this financial data is recorded and exported into a CSV file. This CSV can then be used for further analysis. Here is a example of how I used financial data produced by my tool:  
+All this financial data is recorded and exported into a CSV file. This CSV can then be used for further analysis. Here is an example of how I used financial data produced by my tool:  
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph7.PNG">
