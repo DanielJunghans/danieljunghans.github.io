@@ -104,10 +104,10 @@ compared to the previous experiment, the ANNs clearly performed much better with
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph3.PNG">
 </div>
-<p style="text-align: center;"><i><strong>Figure 5</strong> Artificial neural network testing data results after 15000 generations for all 50 runs.</i></p>
+<p style="text-align: center;"><i><strong>Figure 5</strong> Artificial neural network testing data results after 15000 generations for all 50 runs. The horizontal line added to the residual plot shows the average error for my baseline</i></p>
 <br />
 
-When looking at Figure 5, it is now obvious that my ANNs are doing as well as the baseline. For Figure 5, I added a horizontal line to the residual plot to show the average error for my baseline.
+When looking at Figure 5, it is now obvious that my ANNs are doing as well as the baseline. Although the baseline is being met, the ANNs are using the baseline strategy and struggling to improve. 
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch from feed forward to recurrent neural networks. 
