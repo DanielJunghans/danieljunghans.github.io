@@ -23,37 +23,36 @@ ANNs are inspired by biological brains and are made up of densely interconnected
 <br />
 
 <h4>Input Layer</h4>
-All ANNs are made up of 3 types of layers. The first layer is the input layer. This is the initial data that is read by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using, scroll down to the [Stock Data section](#stock). 
+All ANNs are made up of 3 types of layers. The first layer is the input layer shown in Figure 1. This is the initial data that is read by the neural networks. For this project, the input layer will consist of historical trading data. To learn about the inputs I am using, scroll down to the [Stock Data section](#stock). 
 
 <h4>Connections</h4>
 Connections transmit signals in the form of real numbers and each connection has its own weight. The purpose of connection weights is to either strengthen or weaken the signal that is being transmitted. ANNs learn by adjusting their connection weights. As ANNs learn, important connections will develop larger weights as weights for unimportant connections become smaller. 
 
 <h4>Hidden Layers</h4>
-The hidden layers come after the input layer and is where all the computation is done. The nodes that are in the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in an Activation Function.
+The hidden layers come after the input layer and is where all the computation is done. The artificial neural network in Figure 1 has two hidden layers made up of four nodes in each layer. The nodes that are in the hidden layers must find the sum of all input signals multiplied by their corresponding weights, add a node bias, and plug the result in an Activation Function.
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/node.png">
 </div>
 
-<p style="text-align: center;"><i><strong>Figure 2</strong> Visual representation of a node.</i></p>
+<p style="text-align: center;"><i><strong>Figure 2</strong> This figure is a visual representation of a node. The large circle represents the node and shows the addition of the bias to the summation of the inputs multiplied by the connection weights. The value the node calculates is then plugged into a non-linear activation function and the result is the node output. </i></p>
 
 <br />
-An Activation Function is a non-linear function used by nodes to produce an output. A common example of an Activation Function would be the sine function. Node bias is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarly to the constant b in the linear function: *y=ax+b*. When the constant *b* is changed, the line will move up or down changing the *y-axis*. Moving an Activation Function greatly impacts the output of a node which may be useful in the learning process. 
+An Activation Function is a non-linear function used by nodes to produce an output. A common example of an Activation Function would be the sine function. The node bias shown in Figure 2 is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarly to the constant b in the linear function: *y=ax+b*. When the constant *b* is changed, the line will move up or down changing the *y-axis*. Moving an Activation Function greatly impacts the output of a node which may be useful in the learning process. 
 
 <h4>Output Layer</h4>
-The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputting the closing price prediction.
-
+The last layer for Figure 1 is the output layer. The output layer is that last set of nodes that produce outputs. My ANNs will only have one node in the output layer. This last node will be responsible for outputting the closing price prediction.
 
 
 <p style="text-align: center;"><font size="+3">NEAT</font></p>
-While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](https://ieeexplore.ieee.org/abstract/document/1004508?casa_token=GvSoqJe__7oAAAAA:4MxGQXXGS6P-w3srDdBVwXhW0vGG8oF9TGfN9W-RmY3o_7dS5259uk6JBSAKauHqO4Fi1gtntw) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving the structure ANNs. Unlike traditional ANNs that only adjust connection weights, NEAT gives ANNS the ability to adjust nodes, weights, and connections. The NEAT approach allows ANNS to add or delete connections and nodes. Stock market data is extremely noisy and allowing the structure of my ANNs to change may give them a competitive advantage. 
+While researching ANNs, I was introduced to the [Neural Evolution of Augmenting Topologies](#references) (NEAT). NEAT was developed by Dr. Kenneth O. Stanely and is a method for evolving the structure ANNs. Unlike traditional ANNs that only adjust connection weights, NEAT gives ANNS the ability to change nodes, weights, and connections. The NEAT approach allows ANNS to add or delete connections and nodes. Stock market data is extremely noisy and allowing the structure of my ANNs to change may give them a competitive advantage. 
 
 <a name="stock"></a>
 <p style="text-align: center;"><font size="+3">Tesla Stock</font></p>
 For this project, I am using a stock with a highly volatile price. I want to use a stock with a highly volatile price because I believe it will lead to more versatile and complex algorithms. I chose to train on [$TSLA](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch) because it meets my volatility requirement with a 52-week price range of $211.00 - $1027.48. 
 
 <p style="text-align: center;"><font size="+3">Stock Data</font></p>
-The financial data consists of historical trading data and technical indicators. There are 19 variables in my dataset which serve as inputs for my ANNs. The financial data I decided to use for this research project was largely influenced by [*Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators*](https://www-mitpressjournals-org.proxy1.cl.msu.edu/doi/full/10.1162/neco_a_01124). The historical trading data was downloaded from yahoo finance. 
+The financial data consists of historical trading data and technical indicators. There are 19 variables in my dataset which serve as inputs for my ANNs. The financial data I decided to use for this research project was largely influenced by [*Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators*](#references). The historical trading data was downloaded from yahoo finance. 
 
 
 <p style="text-align: center;"><font size="+3">Neat-Python</font></p>
@@ -113,3 +112,10 @@ When looking at Figure 5, it is now obvious that my ANNs are doing as well as th
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 This project has come quite far, and I have plenty of ideas for the direction of this research project. For future experiments, I plan on experimenting with other selection schemes. I would also like to switch from feed forward to recurrent neural networks. 
 
+<p style="text-align: center;"><font size="+3">References</font></p>
+Stanley, K. O., & Miikkulainen, R. (2002, May). Efficient evolution of neural network topologies. In Proceedings of the 2002 Congress on Evolutionary Computation. CEC'02 (Cat. No. 02TH8600) (Vol. 2, pp. 1757-1762). IEEE.
+<br />
+
+Gao, T., & Chai, Y. (2018). Improving stock closing price prediction using recurrent neural network and technical indicators. Neural computation, 30(10), 2833-2854.
+
+<a name="references"></a>
