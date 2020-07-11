@@ -51,7 +51,7 @@ for this figure, I added a horizontal line to the residual plot to show the aver
 </div>
 
 
-There was definitely more variation in this experiment, but the best genome out of all 50 runs continued to use the baseline strategy. For this experiment, I also kept track of the number of unique populations at the end of each run. 
+There was more variation in the results of this experiment, but the best genome out of all 50 runs continued to use the baseline strategy. For this experiment, I also kept track of the number of unique populations at the end of each run. 
 
 <p style="text-align: center;"><font size="+3">Future Work</font></p>
 For my future work, I plan on doing several experiments adjusting the node bias range. I believe that changing the node bias range could assist certain activation functions in the learning process. I also want to explore different datasets. The dataset I am using now relies heavily on historical analysis. Instead of relying on historical analysis, I may want to use historical trading data of a stock and market returns. To do this, I believe that a stock with a beta close to 1 or -1 would be required.  
