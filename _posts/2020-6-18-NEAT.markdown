@@ -17,7 +17,7 @@ ANNs are inspired by biological brains and are made up of densely interconnected
     <img class="col three" src="{{ site.baseurl }}/assets/img/neuralnetwork.png">
 </div>
 
-<p style="text-align: center;"><i><strong>Figure 1</strong> Visual representation of a artificial neural network. The circles represent nodes and the lines connecting the nodes are connections. </i></p>
+<p style="text-align: center;"><i><strong>Figure 1</strong> Visual representation of an artificial neural network. The circles represent nodes and the lines connecting the nodes are connections. Nodes change their outputs based on the values received from connections.  </i></p>
 
 
 <br />
@@ -35,7 +35,7 @@ The hidden layers come after the input layer and is where all the computation is
     <img class="col three" src="{{ site.baseurl }}/assets/img/node.png">
 </div>
 
-<p style="text-align: center;"><i><strong>Figure 2</strong> This figure is a visual representation of a node. The large circle represents the node and shows the addition of the bias to the summation of the inputs multiplied by the connection weights. The value the node calculates is then plugged into a non-linear activation function and the result is the node output. </i></p>
+<p style="text-align: center;"><i><strong>Figure 2</strong> visual representation of a node. The large circle represents the node and shows the addition of the bias to the summation of the inputs multiplied by the connection weights. The value the node calculates is then plugged into a non-linear activation function and the result is the node output. </i></p>
 
 <br />
 An Activation Function is a non-linear function used by nodes to produce an output. A common example of an Activation Function would be the sine function. The node bias shown in Figure 2 is a value added to the sum of all input signals multiplied by their weights. The purpose of adding a node bias is to move the Activation Function. The bias acts very similarly to the constant b in the linear function: *y=ax+b*. When the constant *b* is changed, the line will move up or down changing the *y-axis*. Moving an Activation Function greatly impacts the output of a node which may be useful in the learning process. 
