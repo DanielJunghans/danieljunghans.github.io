@@ -22,7 +22,7 @@ description:
 </div>
 
 Bachelor of Arts, Finance <br />
-Major GPA:3.625/4.00; Cumulative GPA: 3.78/4.00 <br />
+Cumulative GPA: 3.78/4.00 <br />
 Dean's List 4 Semesters                                   
 ### Publications & Presentations
 Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lalejini, Emily Dolson, and Charles Ofria. “Characterizing the Effects of Random Subsampling on Lexicase Selection.” In Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds) Genetic Programming Theory and Practice XVII (2020).
@@ -54,8 +54,8 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 
 ### Skills and Notable Coursework <br />
 <div style="overflow: hidden;">
-<p style="float: left; margin:0;">•	Computer Concepts and Competencies (CSE) 101</p> 
-<p style="float: right; margin:0;">01/19 - 05/19</p>
+<p style="float: left; margin:0;">•	Financial Management (FI) 311</p> 
+<p style="float: right; margin:0;">05/19 - 06/19</p>
 </div>
 <div style="overflow: hidden;">
 
