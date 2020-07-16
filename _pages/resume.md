@@ -18,7 +18,7 @@ description:
 
 <div style="overflow: hidden;" >
 <p style="float: left; margin:0;">Broad College of Business</p>
-<p style="float: right; margin:0;">08/18 – 05/21 </p>
+<p style="float: right; margin:0;">08/18 – 05/22 </p>
 </div>
 
 Bachelor of Arts, Finance <br />
