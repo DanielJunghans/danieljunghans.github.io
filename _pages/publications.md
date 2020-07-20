@@ -7,7 +7,7 @@ years: [2020]
 Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lalejini, Emily Dolson, and Charles Ofria. “Characterizing the Effects of Random Subsampling on Lexicase Selection.” In Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds) Genetic Programming Theory and Practice XVII (2020).
 
 ---
-# Workshops
+# workshops
 
 **Daniel Junghans**, Austin J. Ferguson, Alexander Lalejini, and Acacia Ackles. “Emerging Researchers in Artificial Life.” Workshop at International Conference for Artificial Life 2020, July 13-18, Montreal, Canada.
 
