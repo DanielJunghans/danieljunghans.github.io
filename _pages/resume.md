@@ -31,7 +31,7 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 **Daniel Junghans**, Alexander Lalejini, Austin J. Ferguson, and Charles Ofria. “Characterizing the Differences Between Selection Schemes that are used in Genetic Algorithms.” Poster at Mid-Michigan Symposium for Undergraduate Research (MID-SURE), July 2019.
 
 ### Workshops
-**Daniel Junghans**, Austin J. Ferguson, Alexander Lalejini, and Acacia Ackles. “Emerging Researchers in Artificial Life.” Workshop at International Conference for Artificial Life 2020, July 13-18, Montreal, Canada (accepted)
+**Daniel Junghans**, Austin J. Ferguson, Alexander Lalejini, and Acacia Ackles. “Emerging Researchers in Artificial Life.” Workshop at International Conference for Artificial Life 2020, July 13-18, Montreal, Canada.
 ### Professional Experience
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>National Science Foundation’s BEACON Center</i></p> 
@@ -60,7 +60,7 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 <div style="overflow: hidden;">
 
 <p style="float: left; margin:0;">•	Principles of Financial Accounting (ACC) 201</p>
-<p style="float: right; margin:0;">01/20 - 05/ 20</p>      
+<p style="float: right; margin:0;">01/20 - 05/20</p>      
 </div>
 <div style="overflow: hidden;">
 
