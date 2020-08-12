@@ -39,9 +39,10 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 </div>
 
 **Research Assistant**     <br /> 
-•	Utilized the Neuroevolution of Augmenting Topologies architecture to predict the price of stocks in the spring semester of 2020.                                                                                  
-•	Researched how Lexicase Selection performs under a diagnostic that rewards exploration of the problem space for the fall semester of 2019. <br />
-•	Conducted research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez.
+•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez
+•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference
+•	Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background
+
 <br />
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>Michigan State University Summer Research Opportunities Program (SROP)</i></p>
@@ -49,8 +50,10 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 </div>
 
 **Summer Research Assistant** <br />
-•	Researched the selection process used by genetic algorithms under the supervision of Dr. Charles Ofria and graduate students Alexander Lalejini and Austin J. Ferguson. <br />
-•	Presented research at Mid-Michigan Symposium for Undergraduate Research (MID-SURE) (July 2019)
+•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research
+•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020)
+•	Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019
+
 
 ### Skills and Notable Coursework <br />
 <div style="overflow: hidden;">
