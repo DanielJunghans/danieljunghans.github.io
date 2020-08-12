@@ -16,7 +16,7 @@ profile:
 news: false
 social: true
 ---
-I am a second year finance student at Michigan State University's [Broad College of Business](https://broad.msu.edu/). My current interests lie in machine learning, capital markets, and capital budgeting. My goal is to utilize these interests to improve the financial health of businesses. 
+I am a second year finance student at Michigan State University's [Broad College of Business](https://broad.msu.edu/). My current interests lie in capital budgeting, capital markets, and machine learning. My goal is to utilize these interests to improve the financial health of businesses. 
 
 While attending Michigan State University, I have learned about machine learning and artificial neural networks(ANN) through my work as a research assistant. I am currently working in the [National Science Foundation's BEACON Center for the Study of Evolution in Action](https://www3.beacon-center.org/) under the supervision of Dr. Charles Ofria.
 
