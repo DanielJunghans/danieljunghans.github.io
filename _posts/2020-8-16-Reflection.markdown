@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2020 Summer Reflection
-date: 2020-8-20 1:44:00-0400
+date: 2020-8-20 0:44:00-0100
 description: 
 comments: false
 ---
