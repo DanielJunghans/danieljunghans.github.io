@@ -20,7 +20,7 @@ After finishing Financial Management 311, I started taking Principles of Managem
 Throughout the summer, I continued to work on my NEAT project while taking the summer courses described above. After reading several papers about algorithms predicting stock price movement, I decided to change my algorithm so it is predicting whether the closing stock price will go up or down. Previously my algorithm predicting the closing price for the next day, but now it just predicts whether the price is going up or down. After changing the expected outputs, here was the algorithm accuracy for all models:
 
 <div class="img">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/graph9.png">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/graph9.PNG">
 </div>
 
 
