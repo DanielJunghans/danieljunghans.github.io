@@ -39,8 +39,8 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 </div>
 
 **Research Assistant**     <br /> 
-•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez
-•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference
+•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez<br />
+•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference<br />
 •	Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background
 
 <br />
@@ -50,8 +50,8 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 </div>
 
 **Summer Research Assistant** <br />
-•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research
-•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020)
+•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research<br />
+•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020)<br />
 •	Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019
 
 
@@ -73,3 +73,4 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 
 •	Environment: PC, Windows, Linux <br />
 •	Languages: R, Python 3 <br />
+•	Software: Microsoft Excel, Microsoft Access, Power Point, Microsoft Word, VeraCrypt
