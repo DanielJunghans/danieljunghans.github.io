@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Exploring Scikit Learn
+title: Exploring scikit-learn
 date: 2020-8-28 0:34:00-0200
 description: 
 comments: false
 ---
 
 <p style="text-align: center;"><font size="+3">Introduction</font></p>
-For my current NEAT project, I read the paper [*A Comparative Study of Supervised Machine Learning Algorithms for Stock Market Trend Prediction*](https://ieeexplore.ieee.org/abstract/document/8473214?casa_token=mA1Va18Dm6kAAAAA:v_6_aQSag5JUXPvV3uPm-BYIVUfWLtCD5HZFDXopj5UUDriA460pLKGfCr99nKgQEYCw8a-GAQ) to learn  how others approached stock market prediction using supervised machine learning algorithms. This paper compared the accuracy between Support Vector Machine, Random Forest, K-Nearest Neighbor, Naive Bayes, and SoftMax algorithms. After reading about these different algorithms, I took it upon myself to learn more about Scikit Learn python library. I am learning how to use Scikit Learn because it will afford me the ability to implement some the algorithms outlined in the paper. 
+For my current NEAT project, I read the paper [*A Comparative Study of Supervised Machine Learning Algorithms for Stock Market Trend Prediction*](https://ieeexplore.ieee.org/abstract/document/8473214?casa_token=mA1Va18Dm6kAAAAA:v_6_aQSag5JUXPvV3uPm-BYIVUfWLtCD5HZFDXopj5UUDriA460pLKGfCr99nKgQEYCw8a-GAQ) to learn  how others approached stock market prediction using supervised machine learning algorithms. This paper compared the accuracy between Support Vector Machine, Random Forest, K-Nearest Neighbor, Naive Bayes, and SoftMax algorithms. After reading about these different algorithms, I took it upon myself to learn more about scikit-learn python library. I am learning how to use scikit-learn because it will afford me the ability to implement some the algorithms outlined in the paper. 
 
 <p style="text-align: center;"><font size="+3">Random Forest</font></p>
 The first algorithm I sought to better understand was the Random Forest algorithm. This algorithm is consisting of multiple decision trees. A decision tree learns simple decision rules from the data and produces a output. Each tree is used on a different sub sample of the dataset and averaging is used to improve accuracy. 
 
-The decision trees all “vote” by producing outputs, and whatever the most popular output is becomes the algorithms output. I first imported my data as a Pandas data frame and split it up into a training section and a testing section. I then created a Random Forest algorithm using the scikit learn random forest classifier. After running the algorithm for a few times, I noticed that the accuracy was unusually high. After some investigation, I discovered that the algorithms were predicting the stock price movement for the current day instead of one day in the future. After fixing the problem, the accuracy on the testing dataset stayed around 50%. Here is the code that I wrote:
+The decision trees all “vote” by producing outputs, and whatever the most popular output is becomes the algorithms output. I first imported my data as a Pandas data frame and split it up into a training section and a testing section. I then created a Random Forest algorithm using the scikit-learn random forest classifier. After running the algorithm for a few times, I noticed that the accuracy was unusually high. After some investigation, I discovered that the algorithms were predicting the stock price movement for the current day instead of one day in the future. After fixing the problem, the accuracy on the testing dataset stayed around 50%. Here is the code that I wrote:
 
 
 
@@ -69,7 +69,7 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 <p style="text-align: center;"><font size="+3">K-Nearest Neighbors</font></p>
 The next algorithm I studied was the K-Nearest Neighbors algorithm. The nearest neighbor method looks for the most similar trading days. The predefined number of the most similar trading days become the nearest neighbors. Just like the decision trees in the Random Forest algorithm, the nearest neighbors "vote". Instead of using decision trees to produce an output, the K-Nearest Neighbor algorithm uses the actual expected output for the most similar trading days. The most popular output becomes of the neighbors becomes the algorithms output. If 5 of the nearest neighbors had the closing stock price go up and 3 neighbors had the stock price go down, the prediction will be that the stock price goes up. 
 
-While studying this algorithm, I learned that K-Nearest Neighbor algorithms performs better with a lower number of features/inputs. To reduce the size of my dataset, I first normalized it with the standard scaler tool from Scikit Learn. I then used PCA to shrink the number of inputs in my dataset down to two while preserving the variance in the dataset.  Here is my K-Nearest Neighbors code:
+While studying this algorithm, I learned that K-Nearest Neighbor algorithms performs better with a lower number of features/inputs. To reduce the size of my dataset, I first normalized it with the standard scaler tool from scikit-learn. I then used PCA to shrink the number of inputs in my dataset down to two while preserving the variance in the dataset.  Here is my K-Nearest Neighbors code:
 
 
 
