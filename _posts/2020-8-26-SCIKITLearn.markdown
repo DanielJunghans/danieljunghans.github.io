@@ -6,9 +6,16 @@ description:
 comments: false
 ---
 
-<p style="text-align: center;"><font size="+3">Introduction</font></p>
-For my current NEAT project, I read the paper [*A Comparative Study of Supervised Machine Learning Algorithms for Stock Market Trend Prediction*](https://ieeexplore.ieee.org/abstract/document/8473214?casa_token=mA1Va18Dm6kAAAAA:v_6_aQSag5JUXPvV3uPm-BYIVUfWLtCD5HZFDXopj5UUDriA460pLKGfCr99nKgQEYCw8a-GAQ) to learn  how others approached stock market prediction using supervised machine learning algorithms. This paper compared the accuracy between Support Vector Machine, Random Forest, K-Nearest Neighbor, Naive Bayes, and SoftMax algorithms. After reading about these different algorithms, I took it upon myself to learn more about the scikit-learn python library. I am learning how to use scikit-learn because it will give me the ability to implement some the algorithms outlined in the paper. 
 
+
+<p style="text-align: center;"><font size="+3">Introduction</font></p>
+For my current NEAT project, I read the paper [*A Comparative Study of Supervised Machine Learning Algorithms for Stock Market Trend Prediction*](https://ieeexplore.ieee.org/abstract/document/8473214?casa_token=mA1Va18Dm6kAAAAA:v_6_aQSag5JUXPvV3uPm-BYIVUfWLtCD5HZFDXopj5UUDriA460pLKGfCr99nKgQEYCw8a-GAQ) to learn  how others approached stock market prediction using supervised machine learning algorithms. This paper compared the accuracy between Support Vector Machine, Random Forest, K-Nearest Neighbor, Naive Bayes, and SoftMax algorithms. After reading about these different algorithms, I took it upon myself to learn more about the scikit-learn python library. I am learning how to use scikit-learn because it will give me the ability to implement some the algorithms outlined in the paper. The algorithms I have covered so far include: <br />
+[•	Random Forest](#RandomForest)<br />
+[•	K-Nearest Neighbors](#KNN)<br />
+
+
+
+<a name="RandomForest"></a>
 <p style="text-align: center;"><font size="+3">Random Forest</font></p>
 The first algorithm I sought to better understand was the Random Forest algorithm. This algorithm is made up of multiple decision trees. A decision tree learns simple decision rules from the data and produces a output. Each tree is used on a different sub sample of the dataset and averaging is used to improve accuracy. The decision trees all “vote” by producing outputs, and whatever the most popular output is becomes the algorithms output. 
 
@@ -65,7 +72,7 @@ print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
 
 
-
+<a name="KNN"></a>
 <p style="text-align: center;"><font size="+3">K-Nearest Neighbors</font></p>
 The next algorithm I studied was the K-Nearest Neighbors algorithm. The nearest neighbor method looks for the most similar trading days. The predefined number of the most similar trading days become the nearest neighbors. Just like the decision trees in the Random Forest algorithm, the nearest neighbors "vote". Instead of using decision trees to produce an output, the K-Nearest Neighbor algorithm uses the actual expected output for the most similar trading days. The most popular output becomes of the neighbors becomes the algorithms output. If 5 of the nearest neighbors had the closing stock price go up and 3 neighbors had the stock price go down, the prediction will be that the stock price goes up. 
 
