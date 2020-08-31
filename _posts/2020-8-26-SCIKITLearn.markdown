@@ -139,3 +139,9 @@ print("Accuracy:",metrics.accuracy_score(Y_test, Y_pred))
 
 {% endhighlight %}
 
+
+After performing principal component analysis on my dataset, I graphed the principal components to better understand the data. After creating the graph, it became clear why the accuracy of my K-Nearest Neighbor algorithm stayed around 50%. Both expected outputs (Stock price going up or down) are clustered together. 
+
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/Component.PNG">
+</div>
