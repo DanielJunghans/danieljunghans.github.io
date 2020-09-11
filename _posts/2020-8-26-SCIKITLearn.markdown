@@ -12,7 +12,7 @@ comments: false
 For my current NEAT project, I read the paper [*A Comparative Study of Supervised Machine Learning Algorithms for Stock Market Trend Prediction*](https://ieeexplore.ieee.org/abstract/document/8473214?casa_token=mA1Va18Dm6kAAAAA:v_6_aQSag5JUXPvV3uPm-BYIVUfWLtCD5HZFDXopj5UUDriA460pLKGfCr99nKgQEYCw8a-GAQ) to learn  how others approached stock market prediction using supervised machine learning algorithms. This paper compared the accuracy between Support Vector Machine, Random Forest, K-Nearest Neighbor, Naive Bayes, and SoftMax algorithms. After reading about these different algorithms, I took it upon myself to learn more about the scikit-learn python library. I am learning how to use scikit-learn because it will give me the ability to implement some the algorithms outlined in the paper. The algorithms I have covered so far include: <br />
 [•	Random Forest](#RandomForest)<br />
 [•	K-Nearest Neighbors](#KNN)<br />
-
+[•	Support Vector Machine](#SVM)<br />
 
 
 <a name="RandomForest"></a>
@@ -145,3 +145,106 @@ After performing principal component analysis on my dataset, I graphed the princ
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/Component.PNG">
 </div>
+
+
+<a name="SVM"></a>
+<p style="text-align: center;"><font size="+3">Support Vector Machine</font></p>
+A Support Vector Machine is a machine learning tool that uses a hyperplane to define data points. Instead of looking at the nearest neighbors like a KNN, I like to think that Support Vector Machines split up data points into different neighborhoods. For example, if we use the two components from my PCA analysis, a SVM will create a one dimensional hyperplane spliting up the data into two "neighborhoods". The hyperplane will create decision boundaries that maximize the margins from both expected outputs. The graph below shows the data points and the decision boundaries created by my SVM. 
+
+<div class="img">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/graph10.PNG">
+</div>
+
+Any data point that falls into the blue background gets categorized as a 0 (closing stock price goes down). To create this graph I used a Support Vector Machine with a RBF kernel. Kernel functions allow SVMs to create hyperplanes in high dimensional data without having to calculate the coordinates of the data in that space. Here is my Support Vector Machine Code:
+
+{% highlight python linenos %}
+#support vector machine
+
+import csv
+import pandas as pd
+from sklearn import metrics
+from sklearn.metrics import classification_report
+from sklearn import svm
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+import numpy as np
+
+#this opens the CSV File
+data = pd.read_csv('RandomForest.csv')
+data.head()
+
+#setting the size of the training dataset
+training_size = .7
+split = int(len(data)*.7)
+
+#Identifying all of the inputs and the expected output
+X=data[['Open','High','Low','Close','Volume','Accumulation Distribution Line','MACD','Chaikan Oscillator (CHO)','Highest closing price (5 days)',
+'Lowest closing price (days)','Stochastic %K (5 days)','%D','Volume Price Trend (VPT)','Williams %R (14 days)','Relative Strength Index','Momentum (10 days)',
+'Price rate of change (PROC)','Volume rate of change (VROC)','On Balance Volume (OBV)']]
+y=data['Outputs']
+
+#splitting the dataframe into a training and testing dataset
+X_train = X[:split]
+X_test = X[split:]
+y_train = y[:split]
+y_test = y[split:]
+
+#create the support vector machine
+svc = svm.SVC(kernel='rbf', C=1.0)
+svc.fit(X_train, y_train)
+y_pred = svc.predict(X_test)
+
+#printing the testing accuracy
+print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+##################################################
+#The next section transforms the dataset#
+#And graphs the components with decision boundries
+
+#Normalizing the dataset
+X = StandardScaler().fit_transform(X)
+
+#performing PCA
+PCA = PCA(n_components=2)
+Components = PCA.fit_transform(X)
+ComponentDf = pd.DataFrame(data=Components,columns = ['principal component 1', 'principal component 2'])
+
+#transforming the dataset
+X = ComponentDf.to_numpy()
+y = y.ravel()
+
+h = 0.2
+
+# create a mesh to plot in
+x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+xx, yy = np.meshgrid(np.arange(x_min, x_max, h),
+                     np.arange(y_min, y_max, h))
+
+#create the support vector machine
+svc = svm.SVC(kernel='rbf', C=1.0).fit(X, y)
+
+#graphing the data
+Z = svc.predict(np.c_[xx.ravel(), yy.ravel()])
+
+# Put the result into a color plot
+Z = Z.reshape(xx.shape)
+plt.contourf(xx, yy, Z, cmap=plt.cm.coolwarm, alpha=0.8)
+
+# Creating the plot
+plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.coolwarm)
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.xlim(xx.min(), xx.max())
+plt.ylim(yy.min(), yy.max())
+plt.xticks(())
+plt.yticks(())
+plt.title('Support Vector Machine Graph')
+plt.legend()
+
+# Saving the Plot
+plt.savefig("matplotlib.png")
+
+
+{% endhighlight %}
