@@ -149,13 +149,13 @@ After performing principal component analysis on my dataset, I graphed the princ
 
 <a name="SVM"></a>
 <p style="text-align: center;"><font size="+3">Support Vector Machine</font></p>
-A Support Vector Machine is a machine learning tool that uses a hyperplane to define data points. Instead of looking at the nearest neighbors like a KNN, I like to think that Support Vector Machines split up data points into different neighborhoods. For example, if we use the two components from my PCA analysis, a SVM will create a one dimensional hyperplane spliting up the data into two "neighborhoods". The hyperplane will create decision boundaries that maximize the margins from both expected outputs. The graph below shows the data points and the decision boundaries created by my SVM. 
+A Support Vector Machine is a machine learning tool that uses a hyperplane to define data points. Instead of looking at the nearest neighbors like a KNN, I like to think that Support Vector Machines split up data points into different neighborhoods. For example, if we use the two components from my PCA analysis, a SVM will create a one dimensional hyperplane splitting up the data into two "neighborhoods". The hyperplane will create decision boundaries that maximize the margins from both expected outputs. The graph below shows the data points and the decision boundaries created by my SVM. 
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/graph10.PNG">
 </div>
 
-Any data point that falls into the blue background gets categorized as a 0 (closing stock price goes down). To create this graph I used a Support Vector Machine with a RBF kernel. Kernel functions allow SVMs to create hyperplanes in high dimensional data without having to calculate the coordinates of the data in that space. Here is my Support Vector Machine Code:
+Any data point that falls into the blue background gets categorized as a 0 (closing stock price goes down). To create this graph, I used a Support Vector Machine with a RBF kernel. Kernel functions allow SVMs to create hyperplanes in high dimensional data without having to calculate the coordinates of the data in that space. Here is my Support Vector Machine Code:
 
 {% highlight python linenos %}
 #support vector machine
