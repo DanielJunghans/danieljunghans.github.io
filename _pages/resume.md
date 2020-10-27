@@ -5,7 +5,7 @@ title: resume
 description: 
 
 ---
-[Open as a PDF](/assets/pdf/Resume01.pdf)
+[Open as a PDF](/assets/pdf/Resume.pdf)
 <h1 style="text-align: center;margin:0;"><font size="+3"> Daniel D. Junghans </font></h1>
 <p style="text-align: center;margin:0;">danjunghans@gmail.com | linkedin.com/in/DanielJunghans</p>
 ---
