@@ -29,7 +29,7 @@ Dean's List 4 Semesters
 ### Professional Experience
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>National Science Foundation’s BEACON Center</i></p> 
-<p style="float: right; margin:0;">08/19 - Present</p> 
+<p style="float: right; margin:0;">08/19 - 10/20</p> 
 </div>
 
 **Research Assistant**     <br /> 
@@ -61,7 +61,15 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 
 
 
-### Skills and Notable Coursework <br />
+### Activities & Skills <br />
+<div style="overflow: hidden;">
+<p style="float: left; margin:0;">•	MSU Student Investment Association, <i>Co-Portfolio Manager</i> </p> 
+<p style="float: right; margin:0;">08/20 - Present</p>
+</div>
+
+
+
+
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;">•	Financial Management (FI) 311</p> 
 <p style="float: right; margin:0;">05/19 - 06/19</p>
