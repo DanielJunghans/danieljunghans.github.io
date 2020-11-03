@@ -16,8 +16,8 @@ profile:
 news: false
 social: true
 ---
-I am a third year finance student at Michigan State University's [Broad College of Business](https://broad.msu.edu/). My current interests lie in capital budgeting, capital markets, and machine learning. My goal is to utilize these interests to improve the financial health of businesses. 
+I am a third year finance student at Michigan State University's [Eli Broad College of Business](https://broad.msu.edu/). I aspire to improve the financial health of modern businesses. My interests include financial management, banking, and machine learning. Special interest in developing financial models that will guide management teams towards the most advantageous decisions. Skilled in Microsoft Office applications, Python 3, SQL, R, and Tableau.  
 
-While attending Michigan State University, I have learned about machine learning and artificial neural networks(ANN) through my work as a research assistant. I am currently working in the [National Science Foundation's BEACON Center for the Study of Evolution in Action](https://www3.beacon-center.org/) under the supervision of Dr. Charles Ofria.
+I've developed a working knowledge of machine learning and artificial neural networks through my work as a research assistant in the [National Science Foundation's BEACON Center for the Study of Evolution in Action](https://www3.beacon-center.org/) under the supervision of Dr. Charles Ofria.
 
 If you want to look at any of my previous projects, check out my blog or projects page!
