@@ -17,7 +17,7 @@ description:
 </div>
 
 <div style="overflow: hidden;" >
-<p style="float: left; margin:0;">Broad College of Business</p>
+<p style="float: left; margin:0;">Eli Broad College of Business</p>
 <p style="float: right; margin:0;">08/18 – 05/22 </p>
 </div>
 
