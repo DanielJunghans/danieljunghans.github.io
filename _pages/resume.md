@@ -86,5 +86,5 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 </div>
 
 •	Environment: PC, Windows, Linux <br />
-•	Languages: R, Python 3, SQL <br />
+•	Programming Languages: R, Python 3, SQL <br />
 •	Software: Microsoft Excel, Microsoft Access, Power Point, Microsoft Word, VeraCrypt
