@@ -67,24 +67,6 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 <p style="float: right; margin:0;">08/20 - Present</p>
 </div>
 
-
-
-
-<div style="overflow: hidden;">
-<p style="float: left; margin:0;">•	Financial Management (FI) 311</p> 
-<p style="float: right; margin:0;">05/19 - 06/19</p>
-</div>
-<div style="overflow: hidden;">
-
-<p style="float: left; margin:0;">•	Principles of Financial Accounting (ACC) 201</p>
-<p style="float: right; margin:0;">01/20 - 05/20</p>      
-</div>
-<div style="overflow: hidden;">
-
-<p style="float: left; margin:0;">•	Business Analytics & Info Systems (ITM) 209</p>
-<p style="float: right; margin:0;">01/20 - 05/20</p>  
-</div>
-
 •	Environment: PC, Windows, Linux <br />
 •	Programming Languages: R, Python 3, SQL <br />
 •	Software: Microsoft Excel, Microsoft Access, Power Point, Microsoft Word, VeraCrypt
