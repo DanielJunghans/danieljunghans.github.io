@@ -28,14 +28,25 @@ Dean's List 4 Semesters
 
 ### Professional Experience
 <div style="overflow: hidden;">
+<p style="float: left; margin:0;"><i>Jackson National Life Insurance Company</i></p> 
+<p style="float: right; margin:0;">11/20 - Present</p> 
+</div>
+
+**Strategic Support Associate**     <br /> 
+•	Manage time spent on data entry tasks while working in an online environment.<br />
+•	Support overall operations through completing daily work for the broker management business unit.<br />
+•	Work alongside other associates to preprocess forms and other paperwork. 
+
+
+<div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>National Science Foundation’s BEACON Center</i></p> 
 <p style="float: right; margin:0;">08/19 - 10/20</p> 
 </div>
 
 **Research Assistant**     <br /> 
-•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez<br />
-•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference<br />
-•	Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background
+•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez.<br />
+•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference.<br />
+•	Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background.
 
 
 
@@ -45,9 +56,9 @@ Dean's List 4 Semesters
 </div>
 
 **Summer Research Assistant** <br />
-•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research<br />
-•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020)<br />
-•	Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019
+•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research.<br />
+•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020).<br />
+•	Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019.
 
 
 ### Publications & Presentations 
