@@ -22,21 +22,29 @@ description:
 </div>
 
 Bachelor of Arts, Finance <br />
-Cumulative GPA: 3.78/4.00 <br />
-Dean's List 4 Semesters                                   
+Cumulative GPA: 3.81/4.00 <br />
+Dean's List 6 Semesters                                   
 
 
 ### Professional Experience
+
+<div style="overflow: hidden;">
+<p style="float: left; margin:0;"><i>Federal Reserve Board</i></p> 
+<p style="float: right; margin:0;">05/21 - Present</p> 
+</div>
+
+**Division of Supervision & Regulation Intern** <br />
+
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>Jackson National Life Insurance Company</i></p> 
-<p style="float: right; margin:0;">11/20 - Present</p> 
+<p style="float: right; margin:0;">11/20 - 05/21</p> 
 </div>
 
 **Strategic Support Associate**     <br /> 
-•	Manage time spent on data entry tasks while working in an online environment.<br />
-•	Support overall operations through completing daily work for the broker management business unit.<br />
-•	Work alongside other associates to preprocess forms and other paperwork. 
 
+• Designed a process for the creation of weekly and monthly reports for escalated IT tickets.<br />
+• Performed analysis on the timeliness and effectiveness of IT solutions. <br />
+• Supported overall operations through completing daily work for the broker management business unit.
 
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>National Science Foundation’s BEACON Center</i></p> 
