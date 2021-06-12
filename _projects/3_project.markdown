@@ -5,6 +5,13 @@ description: Sector Reports For MSU's SIA
 img: /assets/img/SIA.jpg
 ---
 
+<p style="text-align: center;"><font size="+3">Introduction</font></p>
+
+During the spring semester of 2021, I continued my work as a Portfolio Manager for Michigan State University's Student Investment Association (SIA). As a Portfolio Manager, I aided Co-Portfolio Managers in the upkeep of the portfolio and prepared presentations to update SIA members on our current holdings. Located below are the sector reports for the spring semester of 2021.
+
+<br />
+<br />
+
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/DOOR.png">
 </div>
@@ -35,7 +42,7 @@ Higher personnel costs drove up selling, general, and admiration (SG&A) costs. S
 
 
 
-<p style="text-align: center;"><font size="+3">Cal-Main Foods Recommendation</font></p>
+<p style="text-align: center;"><font size="+3">Cal-Maine Foods Recommendation</font></p>
 
 We look to hold our position in CALM. If the stock drops below $35.00 we look to add to our position. If the stock price surges to $43.00, we look to sell off a portion of our position. We like Cal-Maine’s dominance in the egg production industry due to medium and increasing barriers to entry. The industry in which Cal-Maine operates is also experiencing strong retail demand. However, we are still concerned with future feed prices and the low revenue growth the egg production industry experiences. We are also concerned with new cage free chicken regulations that will come into effect in the next few years. 
 
