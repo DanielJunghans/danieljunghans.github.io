@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2021 Sector Reports
+title: 2021 Spring Sector Reports
 description: Sector Reports For MSU's SIA
 img: /assets/img/SIA.jpg
 ---
