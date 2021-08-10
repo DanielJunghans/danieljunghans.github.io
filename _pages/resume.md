@@ -33,7 +33,12 @@ Dean's List 6 Semesters
 <p style="float: right; margin:0;">05/21 - Present</p> 
 </div>
 
+
 **Division of Supervision & Regulation Intern** <br />
+
+• Constructed an interactive R-Shiny web app for visualizing Volcker metrics data. This web app is used by Federal Reserve analysts to supervise the trading activity of systematically important banking entities.
+• Presented a R-Shiny case study to the Policy Analytics group of the Division of Supervision and Regulation. This presentation was instrumental in showcasing the benefits and downfalls of using R-Shiny.
+• Used causal graph methods on firm liquidity data in order to create network visualizations and summary measures. The analysis and visualizations provided Federal Reserve Economists insight into relationships between institutions supervised by the Federal Reserve.
 
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>Jackson National Life Insurance Company</i></p> 
