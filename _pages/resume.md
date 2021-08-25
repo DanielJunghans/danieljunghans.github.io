@@ -18,7 +18,7 @@ description:
 
 <div style="overflow: hidden;" >
 <p style="float: left; margin:0;">Eli Broad College of Business</p>
-<p style="float: right; margin:0;">08/18 – 05/22 </p>
+<p style="float: right; margin:0;">08/18 – 12/21 </p>
 </div>
 
 Bachelor of Arts, Finance <br />
@@ -29,27 +29,35 @@ Dean's List 6 Semesters
 ### Professional Experience
 
 <div style="overflow: hidden;">
-<p style="float: left; margin:0;"><i>Federal Reserve Board</i></p> 
-<p style="float: right; margin:0;">05/21 - Present</p> 
+<p style="float: left; margin:0;"><i>Board of Governors of the Federal Reserve System</i></p> 
+<p style="float: right; margin:0;">08/21 - Present</p> 
 </div>
 
+**Banking, Credit and Operational Risk Intern** <br /> 
+• Upon supervisor selection, working in part-time capacity beyond initial summer internship end date throughout the remainder of undergraduate career <br />
+• Using causal graph methods on firm liquidity data to create network visualizations and summary measures <br />
+• Testing partner analytical products and using Bloomberg to pull market data for supervisory and research purposes <br />
 
-**Division of Supervision & Regulation Intern** <br />
+<div style="overflow: hidden;">
+<p style="float: left; margin:0;"><i>Board of Governors of the Federal Reserve System</i></p> 
+<p style="float: right; margin:0;">05/21 - 08/21</p> 
+</div>
 
-• Constructed an interactive R-Shiny web app for visualizing supervisory data. This web app is used by Federal Reserve analysts to supervise the activity of systematically important banking entities. The R-Shiny web app is currently being used in production for surveillance purposes. <br />
-• Presented a R-Shiny case study to the Policy Analytics group of the Division of Supervision and Regulation. This presentation was instrumental in showcasing the benefits of using R-Shiny and the section plans to use this technology to develop other analytical tools.<br />
-• Used causal graph methods on firm liquidity data in order to create network visualizations and summary measures. The analysis and visualizations provided Federal Reserve Economists insight into relationships between institutions supervised by the Federal Reserve.
+**Banking, Credit and Operational Risk Summer Intern** <br />
+• Constructed an interactive R-Shiny web app now used by Federal Reserve analysts to supervise the activity of systematically important banking entities <br />
+• Presented an R-Shiny case study to the Policy Analytics group of the Division of Supervision and Regulation to showcase an example of the technology and its benefits, enabling future implementation of R-Shiny within the section <br />
+• Improved finance and data literacy by attending personal development workshops and intern events hosted by the Board of Governors of the Federal Reserve System <br />
 
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>Jackson National Life Insurance Company</i></p> 
-<p style="float: right; margin:0;">11/20 - 05/21</p> 
+<p style="float: right; margin:0;">10/20 - 05/21</p> 
 </div>
 
 **Strategic Support Associate**     <br /> 
+• Designed a process to generate weekly and monthly reports for escalated IT tickets <br />
+• Performed analysis on the timeliness and effectiveness of IT solutions <br />
+• Supported overall operations by completing daily work for the broker management business unit <br />
 
-• Designed a process for the creation of weekly and monthly reports for escalated IT tickets.<br />
-• Performed analysis on the timeliness and effectiveness of IT solutions. <br />
-• Supported overall operations through completing daily work for the broker management business unit.
 
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>National Science Foundation’s BEACON Center</i></p> 
@@ -57,21 +65,21 @@ Dean's List 6 Semesters
 </div>
 
 **Research Assistant**     <br /> 
-•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez.<br />
-•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference.<br />
-•	Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background.
+•	Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez<br />
+•	Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference<br />
+•	Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background
 
 
 
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><i>Michigan State University Summer Research Opportunities Program (SROP)</i></p>
-<p style="float: right; margin:0;">05/19 - 07/19</p>     
+<p style="float: right; margin:0;">05/19 - 08/19</p>     
 </div>
 
 **Summer Research Assistant** <br />
-•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research.<br />
-•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020).<br />
-•	Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019.
+•	Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research<br />
+•	Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020): “Characterizing the Effects of Random Subsampling on Lexicase Selection”<br />
+•	Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019 
 
 
 ### Publications & Presentations 
