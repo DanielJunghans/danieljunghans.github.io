@@ -6,7 +6,7 @@ description: danjunghans@gmail.com | linkedin.com/in/DanielJunghans
 
 profile:
   align: right
-  image: personalphoto.PNG
+  image: Profile.jpg
   address: >
     <p>Broad College of Business</p>
     <p>Department of Finance</p>
