@@ -105,7 +105,7 @@ Austin J. Ferguson, Jose Guadalupe Hernandez, **Daniel Junghans**, Alexander Lal
 ### Activities & Skills <br />
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;">•	MSU Student Investment Association, <i>Co-Portfolio Manager</i> </p> 
-<p style="float: right; margin:0;">08/20 - Present</p>
+<p style="float: right; margin:0;">08/20 - 05/21</p>
 </div>
 
 •	Environment: PC, Windows, Linux <br />
