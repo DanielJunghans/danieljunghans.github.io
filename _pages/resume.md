@@ -23,20 +23,29 @@ description:
 
 Bachelor of Arts, Finance <br />
 Cumulative GPA: 3.81/4.00 <br />
-Dean's List 6 Semesters                                   
+Dean's List 7 Semesters                                   
 
 
 ### Professional Experience
 
 <div style="overflow: hidden;">
+<p style="float: left; margin:0;"><b>Department of Insurance and Financial Services</b></p> 
+<p style="float: right; margin:0;">12/21 - Present</p> 
+</div>
+*Financial Institution Examiner 9* <br /> 
+• Collaborting with senior leaders and bank executives to analyze performance and identify risks<br /> 
+<br /> 
+
+
+<div style="overflow: hidden;">
 <p style="float: left; margin:0;"><b>Board of Governors of the Federal Reserve System</b></p> 
-<p style="float: right; margin:0;">08/21 - Present</p> 
+<p style="float: right; margin:0;">08/21 - 12/21</p> 
 </div>
 
 *Banking, Credit and Operational Risk Intern* <br /> 
-• Upon supervisor selection, working in part-time capacity beyond initial summer internship end date throughout the remainder of undergraduate career <br />
-• Using causal graph methods on firm liquidity data to create network visualizations and summary measures <br />
-• Testing partner analytical products and using Bloomberg to pull market data for supervisory and research purposes <br />
+• Upon supervisor selection, worked in part-time capacity beyond initial summer internship end date throughout the remainder of undergraduate career <br />
+• Used causal graph methods on firm liquidity data to create network visualizations and summary measures <br />
+• Tested partner analytical products and collected market data for supervisory and research purposess <br />
 
 <div style="overflow: hidden;">
 <p style="float: left; margin:0;"><b>Board of Governors of the Federal Reserve System</b></p> 
