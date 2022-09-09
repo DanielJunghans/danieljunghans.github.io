@@ -32,11 +32,9 @@ Dean's List 7 Semesters
 <p style="float: left; margin:0;"><b>Department of Insurance and Financial Services</b></p> 
 <p style="float: right; margin:0;">12/21 - Present</p> 
 </div>
-*Financial Institution Examiner* <br /> 
-• Analyze financial performance, operational risks, and balance sheet trends for community banks varying in size and complexity <br /> 
-• Provide a professional assessment of all documented findings and present relevant information to the examination team <br /> 
-• Discuss outstanding examination questions and concerns with bank management <br /> 
-
+*Financial Institution Examiner 9* <br /> 
+• Collaborating with senior leaders and bank executives to analyze performance and identify risks<br /> 
+<br /> 
 
 
 <div style="overflow: hidden;">
