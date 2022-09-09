@@ -36,8 +36,7 @@ Dean's List 7 Semesters
 • Analyze financial performance, operational risks, and balance sheet trends for community banks varying in size and complexity <br /> 
 • Provide a professional assessment of all documented findings and present relevant information to the examination team <br /> 
 • Discuss outstanding examination questions and concerns with bank management <br /> 
-<br /> 
-<br /> 
+
 
 
 <div style="overflow: hidden;">
