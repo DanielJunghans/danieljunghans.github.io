@@ -3,6 +3,8 @@ layout: page
 title: 2020 Fall Sector Reports
 description: Sector Reports For MSU's SIA
 img: /assets/img/SIA2.jpg
+importance: 3
+category: work
 ---
 
 <p style="text-align: center;"><font size="+3">Introduction</font></p>

@@ -2,96 +2,96 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Daniel Junghans
     - name: Date of Birth
-      value: 14th March 1879
+      value:  June 28 2000
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Arts, Finance
+      institution: Michigan State University
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Cumulative GPA 3.81/4.00
+        - Dean's List 7 Semesters
+        
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Financial Institution Examiner
+      institution: Michigan Department of Insurance and Financial Services
+      year: 12/21 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Analyze financial performance, operational risks, and balance sheet trends for community banks varying in size and complexity
+        - Provide a professional assessment of all documented findings and present relevant information to the examination team
+        - Discuss outstanding examination questions and concerns with bank management
+
+    - title: Banking, Credit and Operational Risk Intern
+      institution: Federal Reserve Board
+      year: 08/21 - 12/21
       description:
-        - Description 1.
-        - Description 2.
+        - Upon supervisor selection, worked in part-time capacity beyond initial summer internship end date throughout the remainder of undergraduate career
+        - Used causal graph methods on firm liquidity data to create network visualizations and summary measures
+        - Tested partner analytical products and collected market data for supervisory and research purposes
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Banking, Credit and Operational Risk Summer Intern
+      institution: Federal Reserve Board
+      year: 05/21 - 08/21
       description:
+        - Constructed an interactive R-Shiny web app now used by Federal Reserve analysts to supervise the activity of systematically important banking entities
+        - Presented an R-Shiny case study to the Policy Analytics group of the Division of Supervision and Regulation to showcase an example of the technology and its benefits, enabling future implementation of R-Shiny within the section
+        - Improved finance and data literacy by attending personal development workshops and intern events hosted by the Board of Governors of the Federal Reserve System
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Strategic Support Associate
+      institution: Jackson National Life Insurance Company
+      year: 10/20 - 05/21
+      description:
+        - Designed a process to generate weekly and monthly reports for escalated IT tickets
+        - Performed analysis on the timeliness and effectiveness of IT solutions
+        - Supported overall operations by completing daily work for the broker management business unit
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant
+      institution: National Science Foundations BEACON Center
+      year: 08/19 - 10/20
+      description:
+        - Conducted neural network research under the supervision of Dr. Charles Ofria and graduate student Jose Guadalupe Hernandez
+        - Collaborated with graduate students to create the Emerging Researchers in Artificial Life workshop for the 2020 Artificial Life conference
+        - Attended weekly lab meetings and presented the research I conducted to an audience with a diverse background
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Summer Research Assistant
+      institution: Michigan State University Summer Research Opportunities Program (SROP)
+      year: 05/19 - 08/19
+      description:
+        - Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research
+        - Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020) “Characterizing the Effects of Random Subsampling on Lexicase Selection”
+        - Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019
 
-- title: Academic Interests
+
+
+
+
+
+
+
+- title: Pulbications & Presentations
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Austin J. Ferguson, Jose Guadalupe Hernandez, Daniel Junghans, Alexander Lalejini, Emily Dolson, and Charles Ofria. “Characterizing the Effects of Random Subsampling on Lexicase Selection.” In Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds) Genetic Programming Theory and Practice XVII (2020).
 
-- title: Other Interests
+
+- title: Activities & Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - MSU Student Investment Association, Co-Portfolio Manager (08/20 - 05/21)
+    - Programming Languages
+      <br />- R 
+      <br />- Python
+      <br />- SQL
+    - Software
+      <br />- Microsoft Excel
+      <br />- Tableau
+      <br />- Power BI

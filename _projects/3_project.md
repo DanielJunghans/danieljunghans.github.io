@@ -3,6 +3,8 @@ layout: page
 title: 2021 Spring Sector Reports
 description: Sector Reports For MSU's SIA
 img: /assets/img/SIA.jpg
+importance: 2
+category: work
 ---
 
 <p style="text-align: center;"><font size="+3">Introduction</font></p>

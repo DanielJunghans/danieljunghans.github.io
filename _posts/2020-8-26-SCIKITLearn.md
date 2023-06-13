@@ -4,6 +4,7 @@ title: Exploring scikit-learn
 date: 2020-8-28 0:34:00-0200
 description: 
 comments: false
+tags: Machine-Learning
 ---
 
 

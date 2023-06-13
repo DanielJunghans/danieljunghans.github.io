@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: danjunghans@gmail.com | linkedin.com/in/DanielJunghans
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Profile.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
+**Hello!** My name is Daniel Junghans and I am a Financial Institution Examiner for [Michigan's Department of Insurance and Financial Services](https://www.michigan.gov/difs/). I work within the Office of Banking to protect depositors, creditors, and shareholders. I am a knowledgeable young finance professional eager to leverage my understanding of finance to generate creative solutions. Interests include finance, banking, and data analytics. Special interest in developing financial models that will guide management teams towards the most advantageous decisions. Skilled in Microsoft Office applications, Python 3, SQL, R, Tableau, and PowerBI. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+In December of 2021, I graduated with honor from Michigan State University's [Eli Broad College of Business](https://broad.msu.edu/) with a Bachelor of Arts in Finance. During my time as a student, I enjoyed participating in extracurriculars and learning about banking. I was a Co-Portfolio Manager for the [Student Investment Association](https://www.msusia.org/) throughout my Senior year.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+If you want to look at any of my previous projects, check out my blog or projects page!
