@@ -2,7 +2,7 @@
 layout: page
 title: Neat Project
 description: Predicting Stock Closing Prices with NEAT
-img: /assets/img/graph4.png
+img: /assets/img/graph4_3.jpg
 importance: 1
 category: work
 ---

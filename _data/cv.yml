@@ -1,23 +1,5 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Daniel Junghans
-    - name: Date of Birth
-      value:  June 28 2000
-    - name: Languages
-      value: English
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Arts, Finance
-      institution: Michigan State University
-      year: 2021
-      description:
-        - Cumulative GPA 3.81/4.00
-        - Dean's List 7 Semesters
-        
+      
 
 - title: Experience
   type: time_table
@@ -71,16 +53,20 @@
         - Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019
 
 
-
-
-
-
-
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Arts, Finance
+      institution: Michigan State University
+      year: 2021
+      description:
+        - Cumulative GPA 3.81/4.00
+        - Dean's List 7 Semesters
 
 - title: Pulbications & Presentations
-  type: nested_list
+  type: list
   contents:
-    - title: Austin J. Ferguson, Jose Guadalupe Hernandez, Daniel Junghans, Alexander Lalejini, Emily Dolson, and Charles Ofria. “Characterizing the Effects of Random Subsampling on Lexicase Selection.” In Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds) Genetic Programming Theory and Practice XVII (2020).
+    - Austin J. Ferguson, Jose Guadalupe Hernandez, Daniel Junghans, Alexander Lalejini, Emily Dolson, and Charles Ofria. “Characterizing the Effects of Random Subsampling on Lexicase Selection.” In Banzhaf W., Goodman E., Sheneman L., Trujillo L., Worzel B. (eds) Genetic Programming Theory and Practice XVII (2020).
 
 
 - title: Activities & Skills
