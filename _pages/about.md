@@ -6,7 +6,7 @@ subtitle: danjunghans@gmail.com | linkedin.com/in/DanielJunghans
 
 profile:
   align: right
-  image: Profile.jpg
+  image: Profile4.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
