@@ -2,7 +2,7 @@
 layout: page
 title: Securities Research
 description: Building A Python Tool For Securities Research
-img: /assets/img/graph7.PNG
+img: /assets/img/graph7_1.jpg
 importance: 1
 category: fun
 ---
