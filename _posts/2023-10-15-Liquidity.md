@@ -74,13 +74,16 @@ $$
 
 Table 1 highlights the descriptive statistics for state chartered Michigan banks.  Based on the findings below, we can say that average net loans as a fraction of total assets (Liq1) is 59 percent for michigan banks.  Additionally, the average level of liquid assets as a fraction of total assets (Liq2) is 33 percent.  
 
+<br />
+<br />
 Table 1 
+<br />
 Descriptive Statistics (Sample 12/31/2019 - 0630/2023)
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/summary_stats.png">
 </div>
 
-
+<br />
 
 <p style="text-align: center;"><font size="+3">Fixed Effect and Random Effect Regression</font></p>
 
@@ -100,20 +103,29 @@ The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significan
     <img class="col three" src="{{ site.baseurl }}/assets/img/regressionresults.png">
 </div>
 
+<p style="text-align: center;"><font size="+3">Conclusion</font></p>
+
+
 
 <p style="text-align: center;"><font size="+3">References</font></p>
 
 Alger, G., & Alger, I. (1999). Liquid assets in banks: Theory and practice. GREMAQ, Universite des Sciences Sociales.
 <br />
+<br />
 El-Chaarani, H. (2019). Determinants of bank liquidity in the Middle East region. El-CHAARANI H.,(2019), Determinants of Bank Liquidity in the Middle East Region, International Review of Management and Marketing, 9(2).
+<br />
 <br />
 Moussa, M. A. B. (2015). The determinants of bank liquidity: Case of Tunisia. International journal of economics and financial issues, 5(1), 249-259.
 <br />
+<br />
 Munteanu, I. (2012). Bank liquidity and its determinants in Romania. Procedia Economics and Finance, 3, 993-998.
+<br />
 <br />
 Singh, A., & Sharma, A. K. (2016). An empirical analysis of macroeconomic and bank-specific factors affecting liquidity of Indian banks. Future Business Journal, 2(1), 40-53.
 <br />
+<br />
 Vodova, P. (2011). Liquidity of Czech commercial banks and its determinants. International Journal of mathematical models and methods in applied sciences, 5(6), 1060-1067.
+<br />
 <br />
 Vodová, P. (2013). Determinants of commercial bank liquidity in Hungary. Finansowy Kwartalnik Internetowy e-Finanse, 9(3), 64-71.
 
