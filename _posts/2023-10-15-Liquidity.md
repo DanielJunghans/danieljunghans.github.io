@@ -48,7 +48,7 @@ The dependent variable in this article will be liquidity which will be measured 
 <li>Interest Margin (NIM).  Net interest margin is the measure of interest income less interest expenses over average earning assets.  According to finance theory, interest margin should be negatively correlated with liquidity.  Vodová (2013) found that liquidity is negatively affected by interest margin.  An increase in interest margin incentivises banks to focus more on lending activities resulting in a decline in liquid assets. </li>
 <li>Asset Quality (IMLOAN).  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant effect on liquidity.  A higher level of nonaccrual loans may lead to banks being more eager to increase lending activity to make up for losses thus decreasing the level of liquid assets. </li>
 
-<ul>
+</ul>
 
 
 
