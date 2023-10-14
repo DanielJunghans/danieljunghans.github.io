@@ -37,6 +37,7 @@ The dependent variable in this article will be liquidity which will be measured 
 | Interest Margin     | Net interest margin       | NIM       | Negative      |
 | Asset Quality       | Nonaccrual loans over total loans       | IMLOAN       | Negative      |
 
+<br />
 
 <ul>
 
@@ -51,6 +52,7 @@ The dependent variable in this article will be liquidity which will be measured 
 
 
 
+<br />
 
 <p style="text-align: center;"><font size="+3">Model Specification</font></p>
 
@@ -64,12 +66,16 @@ $$
 Liq2_{it} = \alpha_{it}+β_{1}SIZE_{it}+β_{2}ROA_{it}+β_{3}DEP_{it}+β_{4}CAP_{it}+β_{5}IMLOAN_{it}+ ε_{it}
 $$
 
-β1, β2 , β3, β4, β5, and β6 are the coefficients of the determinant variables and ε is the error term.  The panel data was constructed with indices “i” and “t” representing individual banks and time, respectively.  The data is comprised of 59 banks from December 31st, 2019, until June 30th, 2023.  The total number of observations is 885.  
+β1, β2 , β3, β4, and β5 are the coefficients of the determinant variables and ε is the error term.  The panel data was constructed with indices “i” and “t” representing individual banks and time, respectively.  The data is comprised of 59 banks from December 31st, 2019, until June 30th, 2023.  The total number of observations is 885.  
 
 
 <p style="text-align: center;"><font size="+3">Descriptive Statistics</font></p>
 
 
+Table 1 highlights the descriptive statistics for state chartered Michigan banks.  Based on the findings below, we can say that average net loans as a fraction of total assets (Liq1) is 59 percent for michigan banks.  Additionally, the average level of liquid assets as a fraction of total assets (Liq2) is 33 percent.  
+
+Table 1 
+Descriptive Statistics (Sample 12/31/2019 - 0630/2023)
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/summary_stats.png">
 </div>
