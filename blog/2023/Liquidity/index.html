@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Liquidity Determinants and Trends of Michigan Banks | Daniel D. Junghans</title>
+    <meta name="author" content="Daniel D. Junghans">
+    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/al-folio/assets/css/main.css">
+    <link rel="canonical" href="https://danieljunghans.github.io/al-folio/blog/2023/Liquidity/">
+
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/al-folio/assets/js/theme.js"></script>
+    <script src="/al-folio/assets/js/dark_mode.js"></script>
+    
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+<header>
+
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/al-folio/"><span class="font-weight-bold">Daniel </span>D. Junghans</a>
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/al-folio/">about</a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/al-folio/blog/">blog<span class="sr-only">(current)</span></a>
+          </li>
+
+          <!-- Other pages -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/al-folio/resume/">resume</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/al-folio/projects/">projects</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/al-folio/publications/">publications</a>
+          </li>
+
+          <!-- Toogle theme mode -->
+          <li class="toggle-container">
+            <button id="light-toggle" title="Change theme">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      
+        <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Liquidity Determinants and Trends of Michigan Banks</h1>
+    <p class="post-meta">October 14, 2023</p>
+    <p class="post-tags">
+      <a href="/al-folio/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/al-folio/blog/tag/liquidity">
+          <i class="fas fa-hashtag fa-sm"></i> Liquidity</a>  
+          <a href="/al-folio/blog/tag/banking">
+          <i class="fas fa-hashtag fa-sm"></i> Banking</a>  
+          <a href="/al-folio/blog/tag/michigan">
+          <i class="fas fa-hashtag fa-sm"></i> Michigan</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p style="text-align: center;"><font size="+3">Introduction</font></p>
+
+<p>The objective of this article is to examine bank specific factors that determine the level of liquid assets held by state chartered commercial banks in Michigan.  Bank specific factors include bank size, profitability, capital adequacy, deposits, loans, and asset quality.  This article also aims to explore ongoing liquidity trends impacting these financial institutions.  This study consists of balanced panel data of 59 state chartered commercial banks from December 31st, 2019, until June 30th, 2023.</p>
+
+<p>Under the fractional reserve banking system, banks only hold a fraction of their deposit liabilities in liquid assets to meet anticipated liquidity needs.  Bank management is responsible for determining the appropriate level of liquid assets required to meet the demands of depositors and creditors while allowing for the greatest profitability.  Developing a better understanding of the determinants of liquid assets will give key insights into liquidity trends.</p>
+
+<p style="text-align: center;"><font size="+3">Literature Review</font></p>
+
+<p>In 1999, an analysis of the Mexican banking system found that capital has a significant positive effect on liquid assets and the total asset size of the institutions (in relation to the total assets of the banking system) has no statistically significant effect on any measure of liquid assets.  This study also theorized that banks with relatively more demand deposits have more liquid assets but found that the level of demand deposits relative to total assets has a significant negative effect on securities and liquid assets but not the level of cash.  This finding could suggest that banks consider demand deposits to be a very stable liability, or the variance of deposit withdraws declines as deposits increase and the deposit population becomes more diverse (Alger &amp; Alger, 1999).</p>
+
+<p>The relationship between liquid assets and bank size was further examined in a 2015 study of 18 Tunisian banks.  This study used the natural logarithm of total assets as a measure of bank size and also found that bank size does not have a significant impact on bank liquidity supporting the findings of.  Additional variables in this study include return on assets (ROA), return on equity (ROE), net interest margin (NIM), total loans, operating expenses, total deposits, financial expenses, equity, inflation rate, and growth rate of GDP.  ROA, ROE, capital, operating expenses, growth rate of GDP, and  inflation rate were found to have a significant impact on bank liquidity.  Total loans, financial costs, and total deposits did not have a significant impact on bank liquidity (Moussa, 2015).</p>
+
+<p>Macroeconomic as well as bank specific determinants of liquidity of Indian banks were studied by Singh and Sharma (2016).  Bank specific determinants studied in this paper include bank size, profitability, cost of funding, capital adequacy, and deposits.  Macroeconomic determinants of liquidity considered include GDP, inflation, and unemployment.  This study found that bank size and GDP have a negative relationship with liquidity at a 5 percent confidence interval while profitability, deposits, inflation, and capital adequacy have a positive impact.</p>
+
+<p style="text-align: center;"><font size="+3">Specification of Variables</font></p>
+
+<p>The dependent variable in this article will be liquidity which will be measured through two liquidity ratios provided by Vodov’a (2011).  Fixed and random effect regression will be performed for both measures of liquidity.  The first measure of liquidity is net loans as a fraction of total assets (Liq1).  The ratio Liq1 indicates the percentage of bank assets which are invested in illiquid loans.  The higher this ratio is, the fewer liquid assets a bank possesses.  The second measure of liquidity is liquid assets as a fraction of total assets (Liq2).  The ratio Liq2 indicates the percentage of bank assets which are liquid.  A high ratio may indicate an inefficiency since liquid assets yield less income than illiquid assets.  Liquid assets consist of interest as well as non-interest bearing bank balances,  securities sold under agreement to repurchase, federal funds sold, and total securities less pledged securities.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Independent Variable</th>
+      <th style="text-align: center">Proxy/Measurement</th>
+      <th style="text-align: right">Notation</th>
+      <th style="text-align: right">Expected Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Bank Size</td>
+      <td style="text-align: center">Natural log of total assets</td>
+      <td style="text-align: right">SIZE</td>
+      <td style="text-align: right">Negative</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Profitability</td>
+      <td style="text-align: center">Return on assets</td>
+      <td style="text-align: right">ROA</td>
+      <td style="text-align: right">Negative</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Deposits</td>
+      <td style="text-align: center">Deposits over total assets</td>
+      <td style="text-align: right">DEP</td>
+      <td style="text-align: right">Positive</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Capital Adequacy</td>
+      <td style="text-align: center">Tier 1 leverage ratio</td>
+      <td style="text-align: right">CAP</td>
+      <td style="text-align: right">Positive</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Interest Margin</td>
+      <td style="text-align: center">Net interest margin</td>
+      <td style="text-align: right">NIM</td>
+      <td style="text-align: right">Negative</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Asset Quality</td>
+      <td style="text-align: center">Nonaccrual loans over total loans</td>
+      <td style="text-align: right">IMLOAN</td>
+      <td style="text-align: right">Negative</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+
+<li>Bank Size (SIZE). The size of banks (SIZE) has been measured using the natural logarithm of total assets.  Sing et al. (2016) and El-Chaarani (2019) stated that bank size has a significant negative effect on liquidity.  Smaller banks rely on a buffer of liquid assets while larger banks rely on credit instruments and the inter-bank market which is in accordance with the “too big to fail” hypothesis.</li>
+<li>Profitability (ROA).  Return on assets is the proxy of profitability in this article.  Return on Assets (TTM) measures the net income over the prior four quarters over average total assets.  Moussa (2015) found that banks with higher return on assets had lower levels of liquidity.  Banks with less liquid assets have a higher return on assets due to liquid assets generally yielding less income than illiquid assets.</li>
+<li>Deposits (DEP).  Deposits (DEP) have been calculated as total deposits over total assets.  Sing et al. (2016) stated that the level of deposits has a positive effect on liquidity.  Deposits are the major source of funds for banks and these institutions must maintain adequate levels of liquidity to meet customer demand. </li>
+<li>Capital Adequacy (CAP).  The tier 1 leverage ratio is the proxy of capital adequacy in this article. Sing et al. (2016) and Alger et al. (1999) found that capital adequacy had a positive influence on liquidity as a whole.  Alger et al. (1999) suggests that banks invest more in liquid assets as a precaution when more capital is at stake. </li>
+<li>Interest Margin (NIM).  Net interest margin is the measure of interest income less interest expenses over average earning assets.  According to finance theory, interest margin should be negatively correlated with liquidity.  Vodová (2013) found that liquidity is negatively affected by interest margin.  An increase in interest margin incentivises banks to focus more on lending activities resulting in a decline in liquid assets. </li>
+<li>Asset Quality (IMLOAN).  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant effect on liquidity.  A higher level of nonaccrual loans may lead to banks being more eager to increase lending activity to make up for losses thus decreasing the level of liquid assets. </li>
+
+<ul>
+
+
+
+
+<p style="text-align: center;"><font size="+3">Model Specification</font></p>
+
+Two models will be estimated:
+
+$$
+Liq1_{it} = \alpha_{it}+β_{1}SIZE_{it}+β_{2}ROA_{it}+β_{3}DEP_{it}+β_{4}CAP_{it}+β_{5}IMLOAN_{it}+ ε_{it}
+$$
+
+$$
+Liq2_{it} = \alpha_{it}+β_{1}SIZE_{it}+β_{2}ROA_{it}+β_{3}DEP_{it}+β_{4}CAP_{it}+β_{5}IMLOAN_{it}+ ε_{it}
+$$
+
+β1, β2 , β3, β4, β5, and β6 are the coefficients of the determinant variables and ε is the error term.  The panel data was constructed with indices “i” and “t” representing individual banks and time, respectively.  The data is comprised of 59 banks from December 31st, 2019, until June 30th, 2023.  The total number of observations is 885.  
+
+
+<p style="text-align: center;"><font size="+3">Descriptive Statistics</font></p>
+
+
+<div class="img">
+    <img class="col three" src="/al-folio/assets/img/summary_stats.png">
+</div>
+
+
+
+<p style="text-align: center;"><font size="+3">Fixed Effect and Random Effect Regression</font></p>
+
+Fixed effect and random effect regressions were run and a Hausman test was carried out to choose the appropriate model.  The p-value being less than 0.05 for both models, the fixed effect regression is confirmed to be the preferred model.  Results can be found
+The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significantly impacted the fist measure of liquidity (Liq1) as well as the second measure(Liq2).  The impact of DEP, IMLOAN, and ROA on Liq1 (net loans / total assets) was negative whereas the impact of CAP and NIM was positive.  However, the impact of DEP, IMLOAN, and ROA on Liq2 (liquid assets / total assets) was positive while the impact of CAP and NIM was negative.  SIZE was found to have an insignificant effect on either liquidity measure.  
+
+
+<div class="img">
+    <img class="col three" src="/al-folio/assets/img/hausman1.png">
+</div>
+
+<div class="img">
+    <img class="col three" src="/al-folio/assets/img/hausman2.png">
+</div>
+
+<div class="img">
+    <img class="col three" src="/al-folio/assets/img/regressionresults.png">
+</div>
+
+
+<p style="text-align: center;"><font size="+3">References</font></p>
+
+Alger, G., &amp; Alger, I. (1999). Liquid assets in banks: Theory and practice. GREMAQ, Universite des Sciences Sociales.
+
+Moussa, M. A. B. (2015). The determinants of bank liquidity: Case of Tunisia. International journal of economics and financial issues, 5(1), 249-259.
+
+Singh, A., &amp; Sharma, A. K. (2016). An empirical analysis of macroeconomic and bank-specific factors affecting liquidity of Indian banks. Future Business Journal, 2(1), 40-53.
+
+Vodova, P. (2011). Liquidity of Czech commercial banks and its determinants. International Journal of mathematical models and methods in applied sciences, 5(6), 1060-1067.
+</ul>
+</ul>
+
+    </div>
+  </article>
+
+
+  
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/al-folio/blog/2020/SCIKITLearn/">Exploring scikit-learn</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/al-folio/blog/2020/Reflection/">2020 Summer Reflection</a>
+  </li>
+
+  
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/al-folio/blog/2020/NEAT/">NEAT Project</a>
+  </li>
+</div>
+      
+    </div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    © Copyright 2023 Daniel D. Junghans. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+
+  </div>
+</footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Bootsrap & MDB scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+    <!-- Masonry & imagesLoaded -->
+<script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/al-folio/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/al-folio/assets/js/zoom.js"></script>
+
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/al-folio/assets/js/no_defer.js"></script>
+  <script defer src="/al-folio/assets/js/common.js"></script>
+  <script defer src="/al-folio/assets/js/copy_code.js" type="text/javascript"></script>
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+    <!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+  </body>
+</html>
