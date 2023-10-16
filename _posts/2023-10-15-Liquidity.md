@@ -36,8 +36,7 @@ The dependent variable in this article will be liquidity which will be measured 
 </p>
 
 
-
-<table style="margin-left: auto; margin-right: auto;">
+<table border="1" width="100%">
   <tr><th>Independent Variable</th><th>Proxy/Measurement</th><th>Notation</th><th>Expected Effect</th></tr>
   <tr><td>Bank Size</td><td>Natural log of total assets</td><td>SIZE</td>  <td>Negative</td></tr>
   <tr><td>Profitability</td><td>Return on assets</td><td>ROA</td>  <td>Negative</td></tr>
@@ -46,18 +45,6 @@ The dependent variable in this article will be liquidity which will be measured 
   <tr><td>Interest Margin</td><td>Net interest margin</td><td>NIM</td>  <td>Negative</td></tr>
   <tr><td>Asset Quality</td><td>Nonaccrual loans over total loans</td><td>IMLOAN</td>  <td>Negative</td></tr>
 </table>
-
-
-
-
-| Independent Variable | Proxy/Measurement | Notation | Expected Effect |
-| :----------- | :------------------: | :---------------------: | --------------------: |
-| Bank Size      | Natural log of total assets      | SIZE       | Negative       |
-| Profitability       | Return on assets       | ROA       | Negative       |
-| Deposits      | Deposits over total assets       | DEP       | Positive      |
-| Capital Adequacy       | Tier 1 leverage ratio       | CAP       | Positive       |
-| Interest Margin     | Net interest margin       | NIM       | Negative      |
-| Asset Quality       | Nonaccrual loans over total loans       | IMLOAN       | Negative      |
 
 <br />
 
@@ -120,10 +107,18 @@ Table2
 <br />
 Hausman Test
 
-| Model | Chi-Sq. Statistic | Prob. | 
-| :----------- | :------------: | ------------: | 
-| Liq1 Model      | 33.965      | 6.833e-06     | 
-| Liq2 Model      | 56.274      | 2.562e-10     | 
+
+
+
+
+
+<table border="1" width="100%">
+  <tr><th>Model</th><th>Chi-Sq. Statistic</th><th>Prob.</th></tr>
+  <tr><td>Liq1 Model</td><td>33.965</td><td>6.833e-06</td></tr>
+  <tr><td>Liq2 Model</td><td>56.274</td><td>2.562e-10</td></tr>
+  
+</table>
+
 
 <br />
 
