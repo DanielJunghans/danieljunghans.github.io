@@ -54,13 +54,11 @@ The dependent variable in this article will be liquidity which will be measured 
 <li><p align="justify">Deposits (DEP).  Deposits (DEP) have been calculated as total deposits over total assets.  Sing et al. (2016) stated that the level of deposits has a positive effect on liquidity.  Deposits are the major source of funds for banks and these institutions must maintain adequate levels of liquidity to meet customer demand. </p></li>
 <li><p align="justify">Capital Adequacy (CAP).  The tier 1 leverage ratio is the proxy of capital adequacy in this article. Sing et al. (2016) and Alger et al. (1999) found that capital adequacy had a positive influence on liquidity as a whole.  Alger et al. (1999) suggests that banks invest more in liquid assets as a precaution when more capital is at stake. </p></li>
 <li><p align="justify">Interest Margin (NIM).  Net interest margin is the measure of interest income less interest expenses over average earning assets.  According to finance theory, interest margin should be negatively correlated with liquidity.  Vodová (2013) found that liquidity is negatively affected by interest margin.  An increase in interest margin incentivises banks to focus more on lending activities resulting in a decline in liquid assets. </p></li>
-<li><p align="justify">Asset Quality (IMLOAN).  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant effect on liquidity.  A higher level of nonaccrual loans may lead to banks being more eager to increase lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
+<li><p align="justify">Asset Quality (IMLOAN).  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant effect on liquidity.  A higher level of nonaccrual loans may lead to banks increasing lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
 
 </ul>
 
 
-
-<br />
 
 <p style="text-align: left;"><font size="+3"><b>Model Specification</b></font></p>
 
@@ -97,17 +95,24 @@ Descriptive Statistics (Sample 12/31/2019 - 0630/2023)
 <p style="text-align: left;"><font size="+3"><b>Fixed Effect and Random Effect Regression</b></font></p>
 
 <p align="justify">
-Fixed effect and random effect regressions were run and a Hausman test was carried out to choose the appropriate model.  The p-value being less than 0.05 for both models, the fixed effect regression is confirmed to be the preferred model.  Results can be found
-The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significantly impacted the fist measure of liquidity (Liq1) as well as the second measure(Liq2).  The impact of DEP, IMLOAN, and ROA on Liq1 (net loans / total assets) was negative whereas the impact of CAP and NIM was positive.  However, the impact of DEP, IMLOAN, and ROA on Liq2 (liquid assets / total assets) was positive while the impact of CAP and NIM was negative.  SIZE was found to have an insignificant effect on either liquidity measure.  
+Fixed effect and random effect regressions were run and a Hausman test was carried out to choose the appropriate model.  The Hausman Test for both measures of liquidity resulted in a p-value less than 0.05, confirming that the fixed effect regression is the preferred model for Liq1 and Liq2.  Results are shown in Table 2. 
+<br />
+
+The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significantly impacted the fist measure of liquidity (Liq1) as well as the second measure(Liq2).  The impact of DEP, IMLOAN, and ROA on Liq1 (net loans / total assets) was negative whereas the impact of CAP and NIM was positive.  However, the impact of DEP, IMLOAN, and ROA on Liq2 (liquid assets / total assets) was positive while the impact of CAP and NIM was negative.  SIZE was found to have an insignificant effect on either liquidity measure (Table 3).  
 </p>
 
-<div class="img">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/hausman1.png">
-</div>
+Table2
+<br />
+Hausman Test
 
-<div class="img">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/hausman2.png">
-</div>
+| Model | Chi-Sq. Statistic | Prob. | 
+| :----------- | :------------: | ------------: | 
+| Liq1 Model      | 33.965      | 6.833e-06     | 
+| Liq2 Model      | 56.274      | 2.562e-10     | 
+
+Table 3
+<br />
+Regression Analysis
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/regressionresults.png">
@@ -122,31 +127,25 @@ The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significan
 Alger, G., & Alger, I. (1999). Liquid assets in banks: Theory and practice. GREMAQ, Universite des Sciences Sociales.
 </p>
 <br />
-<br />
 <p align="justify">
 El-Chaarani, H. (2019). Determinants of bank liquidity in the Middle East region. El-CHAARANI H.,(2019), Determinants of Bank Liquidity in the Middle East Region, International Review of Management and Marketing, 9(2).
 </p>
-<br />
 <br />
 <p align="justify">
 Moussa, M. A. B. (2015). The determinants of bank liquidity: Case of Tunisia. International journal of economics and financial issues, 5(1), 249-259.
 </p>
 <br />
-<br />
 <p align="justify">
 Munteanu, I. (2012). Bank liquidity and its determinants in Romania. Procedia Economics and Finance, 3, 993-998.
 </p>
-<br />
 <br />
 <p align="justify">
 Singh, A., & Sharma, A. K. (2016). An empirical analysis of macroeconomic and bank-specific factors affecting liquidity of Indian banks. Future Business Journal, 2(1), 40-53.
 </p>
 <br />
-<br />
 <p align="justify">
-Vodova, P. (2011). Liquidity of Czech commercial banks and its determinants. International Journal of mathematical models and methods in applied sciences, 5(6), 1060-1067.
+Vodová, P. (2011). Liquidity of Czech commercial banks and its determinants. International Journal of mathematical models and methods in applied sciences, 5(6), 1060-1067.
 </p>
-<br />
 <br />
 <p align="justify">
 Vodová, P. (2013). Determinants of commercial bank liquidity in Hungary. Finansowy Kwartalnik Internetowy e-Finanse, 9(3), 64-71.
