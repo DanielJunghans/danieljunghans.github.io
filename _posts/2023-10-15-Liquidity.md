@@ -36,6 +36,20 @@ The dependent variable in this article will be liquidity which will be measured 
 </p>
 
 
+
+<table style="margin-left: auto; margin-right: auto;">
+  <tr><th>Independent Variable</th><th>Proxy/Measurement</th><th>Notation</th><th>Expected Effect</th></tr>
+  <tr><td>Bank Size</td><td>Natural log of total assets</td><td>SIZE</td>  <td>Negative</td></tr>
+  <tr><td>Profitability</td><td>Return on assets</td><td>ROA</td>  <td>Negative</td></tr>
+  <tr><td>Deposits</td><td>Deposits over total assets</td><td>DEP</td>  <td>Positive</td></tr>
+  <tr><td>Capital Adequacy</td><td>Tier 1 leverage ratio</td><td>CAP</td>  <td>Positive</td></tr>
+  <tr><td>Interest Margin</td><td>Net interest margin</td><td>NIM</td>  <td>Negative</td></tr>
+  <tr><td>Asset Quality</td><td>Nonaccrual loans over total loans</td><td>IMLOAN</td>  <td>Negative</td></tr>
+</table>
+
+
+
+
 | Independent Variable | Proxy/Measurement | Notation | Expected Effect |
 | :----------- | :------------------: | :---------------------: | --------------------: |
 | Bank Size      | Natural log of total assets      | SIZE       | Negative       |
