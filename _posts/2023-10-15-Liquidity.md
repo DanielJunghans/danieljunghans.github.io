@@ -5,6 +5,8 @@ date: 2023-10-14 4:58:00-0400
 description: 
 comments: false
 tags: Liquidity Banking Michigan
+toc:
+  sidebar: left
 ---
 
 
@@ -37,7 +39,7 @@ The dependent variable in this article will be liquidity which will be measured 
 
 
 | Independent Variable | Proxy/Measurement | Notation | Expected Effect |
-| :----------- | :------------: | ------------: | ------------: |
+| :----------- | :------------------: | :---------------------: | --------------------: |
 | Bank Size      | Natural log of total assets      | SIZE       | Negative       |
 | Profitability       | Return on assets       | ROA       | Negative       |
 | Deposits      | Deposits over total assets       | DEP       | Positive      |
@@ -79,7 +81,7 @@ $$
 <p style="text-align: left;"><font size="+3"><b>Descriptive Statistics</b></font></p>
 
 <p align="justify">
-Table 1 highlights the descriptive statistics for state chartered Michigan banks.  Based on the findings below, we can say that average net loans as a fraction of total assets (Liq1) is 59 percent for michigan banks.  Additionally, the average level of liquid assets as a fraction of total assets (Liq2) is 33 percent.  
+Table 1 highlights the descriptive statistics for state chartered Michigan banks.  Based on the findings below, the average net loans as a fraction of total assets (Liq1) is 59 percent for michigan banks.  Additionally, the average level of liquid assets as a fraction of total assets (Liq2) is 33 percent.  
 </p>
 
 
