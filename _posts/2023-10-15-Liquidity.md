@@ -5,8 +5,6 @@ date: 2023-10-14 4:58:00-0400
 description: 
 comments: false
 tags: Liquidity Banking Michigan
-toc:
-  sidebar: left
 ---
 
 
