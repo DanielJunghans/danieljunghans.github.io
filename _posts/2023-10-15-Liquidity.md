@@ -49,12 +49,12 @@ The dependent variable in this article will be liquidity which will be measured 
 
 <ul>
 
-<li><p align="justify">Bank Size (SIZE). The size of banks (SIZE) has been measured using the natural logarithm of total assets.  Sing et al. (2016) and El-Chaarani (2019) stated that bank size has a significant negative effect on liquidity.  Smaller banks rely on a buffer of liquid assets while larger banks rely on credit instruments and the inter-bank market which is in accordance with the “too big to fail” hypothesis.</p></li>
-<li><p align="justify">Profitability (ROA).  Return on assets is the proxy of profitability in this article.  Return on Assets (TTM) measures the net income over the prior four quarters over average total assets.  Moussa (2015) found that banks with higher return on assets had lower levels of liquidity.  Banks with less liquid assets have a higher return on assets due to liquid assets generally yielding less income than illiquid assets.</p></li>
-<li><p align="justify">Deposits (DEP).  Deposits (DEP) have been calculated as total deposits over total assets.  Sing et al. (2016) stated that the level of deposits has a positive effect on liquidity.  Deposits are the major source of funds for banks and these institutions must maintain adequate levels of liquidity to meet customer demand. </p></li>
-<li><p align="justify">Capital Adequacy (CAP).  The tier 1 leverage ratio is the proxy of capital adequacy in this article. Sing et al. (2016) and Alger et al. (1999) found that capital adequacy had a positive influence on liquidity as a whole.  Alger et al. (1999) suggests that banks invest more in liquid assets as a precaution when more capital is at stake. </p></li>
-<li><p align="justify">Interest Margin (NIM).  Net interest margin is the measure of interest income less interest expenses over average earning assets.  According to finance theory, interest margin should be negatively correlated with liquidity.  Vodová (2013) found that liquidity is negatively affected by interest margin.  An increase in interest margin incentivises banks to focus more on lending activities resulting in a decline in liquid assets. </p></li>
-<li><p align="justify">Asset Quality (IMLOAN).  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant effect on liquidity.  A higher level of nonaccrual loans may lead to banks increasing lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
+<li><p align="justify"><b>Bank Size (SIZE)</b>. The size of banks (SIZE) has been measured using the natural logarithm of total assets.  Sing et al. (2016) and El-Chaarani (2019) stated that bank size has a significant negative effect on liquidity.  Smaller banks rely on a buffer of liquid assets while larger banks rely on credit instruments and the inter-bank market which is in accordance with the “too big to fail” hypothesis.</p></li>
+<li><p align="justify"><b>Profitability (ROA)</b>.  Return on assets is the proxy of profitability in this article.  Return on Assets (TTM) measures the net income over the prior four quarters over average total assets.  Moussa (2015) found that banks with higher return on assets had lower levels of liquidity.  Banks with less liquid assets have a higher return on assets due to liquid assets generally yielding less income than illiquid assets.</p></li>
+<li><p align="justify"><b>Deposits (DEP)</b>.  Deposits (DEP) have been calculated as total deposits over total assets.  Sing et al. (2016) stated that the level of deposits has a positive effect on liquidity.  Deposits are the major source of funds for banks and these institutions must maintain adequate levels of liquidity to meet customer demand. </p></li>
+<li><p align="justify"><b>Capital Adequacy (CAP)</b>.  The tier 1 leverage ratio is the proxy of capital adequacy in this article. Sing et al. (2016) and Alger et al. (1999) found that capital adequacy had a positive influence on liquidity as a whole.  Alger et al. (1999) suggests that banks invest more in liquid assets as a precaution when more capital is at stake. </p></li>
+<li><p align="justify"><b>Interest Margin (NIM)</b>.  Net interest margin is the measure of interest income less interest expenses over average earning assets.  According to finance theory, interest margin should be negatively correlated with liquidity.  Vodová (2013) found that liquidity is negatively affected by interest margin.  An increase in interest margin incentivises banks to focus more on lending activities resulting in a decline in liquid assets. </p></li>
+<li><p align="justify"><b>Asset Quality (IMLOAN)</b>.  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant effect on liquidity.  A higher level of nonaccrual loans may lead to banks increasing lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
 
 </ul>
 
@@ -97,6 +97,7 @@ Descriptive Statistics (Sample 12/31/2019 - 0630/2023)
 <p align="justify">
 Fixed effect and random effect regressions were run and a Hausman test was carried out to choose the appropriate model.  The Hausman Test for both measures of liquidity resulted in a p-value less than 0.05, confirming that the fixed effect regression is the preferred model for Liq1 and Liq2.  Results are shown in Table 2. 
 <br />
+<br />
 
 The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significantly impacted the fist measure of liquidity (Liq1) as well as the second measure(Liq2).  The impact of DEP, IMLOAN, and ROA on Liq1 (net loans / total assets) was negative whereas the impact of CAP and NIM was positive.  However, the impact of DEP, IMLOAN, and ROA on Liq2 (liquid assets / total assets) was positive while the impact of CAP and NIM was negative.  SIZE was found to have an insignificant effect on either liquidity measure (Table 3).  
 </p>
@@ -109,6 +110,8 @@ Hausman Test
 | :----------- | :------------: | ------------: | 
 | Liq1 Model      | 33.965      | 6.833e-06     | 
 | Liq2 Model      | 56.274      | 2.562e-10     | 
+
+<br />
 
 Table 3
 <br />
@@ -126,27 +129,27 @@ Regression Analysis
 <p align="justify">
 Alger, G., & Alger, I. (1999). Liquid assets in banks: Theory and practice. GREMAQ, Universite des Sciences Sociales.
 </p>
-<br />
+
 <p align="justify">
 El-Chaarani, H. (2019). Determinants of bank liquidity in the Middle East region. El-CHAARANI H.,(2019), Determinants of Bank Liquidity in the Middle East Region, International Review of Management and Marketing, 9(2).
 </p>
-<br />
+
 <p align="justify">
 Moussa, M. A. B. (2015). The determinants of bank liquidity: Case of Tunisia. International journal of economics and financial issues, 5(1), 249-259.
 </p>
-<br />
+
 <p align="justify">
 Munteanu, I. (2012). Bank liquidity and its determinants in Romania. Procedia Economics and Finance, 3, 993-998.
 </p>
-<br />
+
 <p align="justify">
 Singh, A., & Sharma, A. K. (2016). An empirical analysis of macroeconomic and bank-specific factors affecting liquidity of Indian banks. Future Business Journal, 2(1), 40-53.
 </p>
-<br />
+
 <p align="justify">
 Vodová, P. (2011). Liquidity of Czech commercial banks and its determinants. International Journal of mathematical models and methods in applied sciences, 5(6), 1060-1067.
 </p>
-<br />
+
 <p align="justify">
 Vodová, P. (2013). Determinants of commercial bank liquidity in Hungary. Finansowy Kwartalnik Internetowy e-Finanse, 9(3), 64-71.
 </p>
