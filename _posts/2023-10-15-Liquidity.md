@@ -59,7 +59,7 @@ Summary of Variable and expected relationship with dependent variable.
 
 <ul>
 
-<li><p align="justify"><b>The size of banks (SIZE) has been measured using the natural logarithm of total assets.  Sing et al. (2016) and El-Chaarani (2019) stated that bank size has a significant negative effect on liquidity.  Smaller banks rely on a buffer of liquid assets while larger banks rely on credit instruments and the inter-bank market which is in accordance with the “too big to fail” hypothesis.  
+<li><p align="justify"><b>Bank Size (SIZE)</b>.  The size of banks (SIZE) has been measured using the natural logarithm of total assets.  Sing et al. (2016) and El-Chaarani (2019) stated that bank size has a significant negative effect on liquidity.  Smaller banks rely on a buffer of liquid assets while larger banks rely on credit instruments and the inter-bank market which is in accordance with the “too big to fail” hypothesis.  
 </p></li>
 <li><p align="justify"><b>Profitability (ROA)</b>.  Return on assets is the proxy of profitability in this article.  Return on Assets (TTM) measures the net income over the prior four quarters over average total assets.  Moussa (2015) found that banks with higher return on assets had lower levels of liquidity.  Banks with less liquid assets have a higher return on assets due to liquid assets generally yielding less income than illiquid assets.
 </p></li>
@@ -71,6 +71,10 @@ Summary of Variable and expected relationship with dependent variable.
 <li><p align="justify"><b>Asset Quality (IMLOAN)</b>.  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant negative effect on liquidity.  A higher level of nonaccrual loans may lead to increased lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
 
 </ul>
+
+
+
+
 
 
 
