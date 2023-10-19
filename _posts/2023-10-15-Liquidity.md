@@ -11,7 +11,7 @@ tags: Liquidity Banking Michigan
 <p style="text-align: left;"><font size="+3"><b>Introduction</b></font></p>
 
 <p align="justify">
-This article investigates bank specific factors that determine the level of liquid assets held by state chartered commercial banks in Michigan.  Bank specific factors include bank size, profitability, capital adequacy, deposits, and asset quality.  This study consists of balanced panel data of 59 state chartered commercial banks from December 31st, 2019, until June 30th, 2023.   
+This article investigates bank-specific factors that determine the level of liquid assets held by state chartered commercial banks in Michigan.  Bank-specific factors include bank size, profitability, capital adequacy, deposits, and asset quality.  This study consists of balanced panel data of 59 state chartered commercial banks from December 31st, 2019, until June 30th, 2023.   
 
 </p>
 <p align="justify">
@@ -30,7 +30,7 @@ The relationship between liquid assets and bank size was further examined in a 2
 
 </p>
 <p align="justify">
-Macroeconomic as well as bank specific determinants of liquidity of Indian banks were studied by Singh and Sharma (2016).  Bank specific determinants studied in this paper include bank size, profitability, cost of funding, capital adequacy, and deposits.  Macroeconomic determinants of liquidity included GDP, inflation, and unemployment.  This study found that bank size and GDP had a negative relationship with liquidity at a 5 percent confidence interval while profitability, deposits, inflation, and capital adequacy had a positive impact.  
+Macroeconomic as well as bank-specific determinants of liquidity of Indian banks were studied by Singh and Sharma (2016).  Bank-specific determinants studied in this paper include bank size, profitability, cost of funding, capital adequacy, and deposits.  Macroeconomic determinants of liquidity included GDP, inflation, and unemployment.  This study found that bank size and GDP had a negative relationship with liquidity at a 5 percent confidence interval while profitability, deposits, inflation, and capital adequacy had a positive impact.  
 
 </p>
 
@@ -43,7 +43,7 @@ The dependent variable in this article is liquidity which was measured through t
 
 Table 1
 <br />
-Summary of Variable and expected relationship with dependent variable.
+Summary of variables and expected relationships with the dependent variables.
 
 <table border="1" width="100%">
   <tr><th>Independent Variable</th><th>Proxy/Measurement</th><th>Notation</th><th>Expected Effect</th></tr>
@@ -146,6 +146,34 @@ Regression Analysis
 <br />
 
 <p style="text-align: left;"><font size="+3"><b>Conclusion</b></font></p>
+
+<p align="justify">
+The aim of this article was to identify bank-specific determinants of liquidity for state chartered Michigan Banks.  Panel data regression analysis has been used for two measures of liquidity.  Bank-specific determinants analyzed include bank size, total deposits, asset quality, capital adequacy, interest margin, and profitability.  The findings of this study afford key insights into ongoing liquidity trends and risk. 
+</p>
+
+<p align="justify">
+Liquidity is positively affected by the level of total deposits.  In other words, the greater the level of total deposits, the higher the level of liquidity banks hold.  Similar results were found in a study by Sing et al. (2016).  However, a study by Alger et al. (1999) found a negative relationship between deposits and bank liquidity.  
+</p>
+
+<p align="justify">
+Another major finding of this study is that the level of nonaccrual loans has a positive effect on liquidity.  Thus, Michigan banks hold more liquid assets the higher the level of nonaccrual loans.  This finding contradicts studies by Munteanu (2012) and El-Chaarani (2019) that have found that nonperforming loans have a negative impact on bank liquidity. 
+</p>
+
+<p align="justify">
+Capital adequacy has a significant negative effect on liquidity.  This study contradicts the findings of Sing et al. (2016) and Alger et al. (1999) but is in line with a study conducted by Moussa (2015).  The reasons behind this discrepancy is a subject for future study.  
+</p>
+
+<p align="justify">
+In line with the findings of Vodová (2013), net interest margin has a negative effect on bank liquidity.  If net interest margin increases by 1 percent, liquidity declines by 8.25 percent and 8.45 percent under the Liq1 and Liq2 models, respectively.  Vodová (2013) concluded that higher interest margin leads to increased lending activity thus reducing bank liquidity.  
+</p>
+
+<p align="justify">
+The level of liquid assets held by Michigan banks is positively affected by bank profitability.  Similar results were reported by Vodová (2013) and Sing et al. (2016).  Higher profitability could indicate that more risk is present on the balance sheet which could require a higher liquidity buffer to mitigate risk. 
+</p>
+
+<p align="justify">
+Bank size has no statistically significant relationship with the liquidity of Michigan state chartered banks.  This may be due to the size of the financial institutions included in this article.  Studies by Sing et al. (2016) and El-Chaarani (2019) found that smaller banks held a buffer of liquid assets while larger banks held less liquid assets and relied on credit instruments and the inter-bank market.  The banks included in this study may be too small to rely on credit instruments and the inter-bank market to meet liquidity needs. 
+</p>
 
 
 
