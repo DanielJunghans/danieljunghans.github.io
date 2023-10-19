@@ -103,7 +103,7 @@ Table 2 highlights the descriptive statistics for state chartered Michigan banks
 
 Table 2 
 <br />
-Descriptive Statistics (Sample 12/31/2019 - 0630/2023)
+Descriptive Statistics (Sample 12/31/2019 - 06/30/2023)
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/summary_stats.png">
 </div>
