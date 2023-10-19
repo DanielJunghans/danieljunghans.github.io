@@ -37,7 +37,7 @@ Macroeconomic as well as bank-specific determinants of liquidity of Indian banks
 <p style="text-align: left;"><font size="+3"><b>Specification of Variables</b></font></p>
 
 <p align="justify">
-The dependent variable in this article is liquidity which was measured through two liquidity ratios provided by Vodov’a (2011).  Fixed and random effect regression were performed for both measures of liquidity.  The first measure of liquidity is net loans as a fraction of total assets (Liq1).  The ratio Liq1 indicates the percentage of bank assets which are invested in illiquid loans.  The higher this ratio is, the fewer liquid assets a bank possesses.  The second measure of liquidity is liquid assets as a fraction of total assets (Liq2).  The ratio Liq2 indicates the percentage of bank assets which are liquid.  A high ratio may indicate an inefficiency since liquid assets yield less income than illiquid assets.  Liquid assets consist of interest as well as non-interest bearing bank balances,  securities sold under agreement to repurchase, federal funds sold, and total securities less pledged securities.
+The dependent variable in this article is liquidity which was measured through two liquidity ratios provided by Vodová (2011).  Fixed and random effect regression was performed for both measures of liquidity.  The first measure of liquidity is net loans as a fraction of total assets (Liq1).  The ratio Liq1 indicates the percentage of bank assets which are invested in illiquid loans.  The higher this ratio is, the fewer liquid assets a bank possesses.  The second measure of liquidity is liquid assets as a fraction of total assets (Liq2).  The ratio Liq2 indicates the percentage of bank assets which are liquid.  A high ratio may indicate an inefficiency since liquid assets yield less income than illiquid assets.  Liquid assets consist of interest as well as non-interest bearing bank balances,  securities sold under agreement to repurchase, federal funds sold, and total securities less pledged securities.
 
 </p>
 
@@ -68,7 +68,7 @@ Summary of variables and expected relationships with the dependent variables.
  </p></li>
 <li><p align="justify"><b>Interest Margin (NIM)</b>.  Net interest margin is the measure of interest income less interest expenses over average earning assets.  According to finance theory, interest margin should be negatively correlated with liquidity.  Vodová (2013) found that liquidity is negatively affected by interest margin. 
  </p></li>
-<li><p align="justify"><b>Asset Quality (IMLOAN)</b>.  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level impaired loans has a significant negative effect on liquidity.  A higher level of nonaccrual loans may lead to increased lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
+<li><p align="justify"><b>Asset Quality (IMLOAN)</b>.  Total nonaccrual loans over total loans is the proxy of asset quality in this article.  Munteanu (2012) stated that the level of impaired loans has a significant negative effect on liquidity.  A higher level of nonaccrual loans may lead to increased lending activity to make up for losses thus decreasing the level of liquid assets. </p></li>
 
 </ul>
 
@@ -118,7 +118,7 @@ Fixed effect and random effect regressions were run and a Hausman test was carri
 <br />
 <br />
 
-The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significantly impacted the fist measure of liquidity (Liq1) as well as the second measure (Liq2).  The impact of DEP, IMLOAN, and ROA on Liq1 (net loans / total assets) was negative whereas the impact of CAP and NIM was positive.  However, the impact of DEP, IMLOAN, and ROA on Liq2 (liquid assets / total assets) was positive while the impact of CAP and NIM was negative.  SIZE was found to have an insignificant effect on either liquidity measure (Table 4).   
+The fixed effect models concluded that DEP, IMLOAN, CAP, NIM, and ROA significantly impacted the first measure of liquidity (Liq1) as well as the second measure (Liq2).  The impact of DEP, IMLOAN, and ROA on Liq1 (net loans / total assets) was negative whereas the impact of CAP and NIM was positive.  However, the impact of DEP, IMLOAN, and ROA on Liq2 (liquid assets / total assets) was positive while the impact of CAP and NIM was negative.  SIZE was found to have an insignificant effect on either liquidity measure (Table 4).   
 </p>
 
 Table 3
@@ -164,7 +164,7 @@ Capital adequacy has a significant negative effect on liquidity.  This study con
 </p>
 
 <p align="justify">
-In line with the findings of Vodová (2013), net interest margin has a negative effect on bank liquidity.  If net interest margin increases by 1 percent, liquidity declines by 8.25 percent and 8.45 percent under the Liq1 and Liq2 models, respectively.  Vodová (2013) concluded that higher interest margin leads to increased lending activity thus reducing bank liquidity.  
+In line with the findings of Vodová (2013), net interest margin has a negative effect on bank liquidity.  If net interest margin increases by 1 percent, liquidity declines by 8.25 percent and 8.45 percent in the Liq1 and Liq2 models, respectively.  Vodová (2013) concluded that higher interest margin leads to increased lending activity thus reducing bank liquidity.  
 </p>
 
 <p align="justify">
