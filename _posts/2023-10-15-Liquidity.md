@@ -5,8 +5,10 @@ date: 2023-10-14 4:58:00-0400
 description: 
 comments: false
 tags: Liquidity Banking Michigan
+thumbnail: assets/img/regressionresults.png
 ---
 
+<p align="justify"><b>DISCLAIMER:</b> This is a personal blog.  Any views or opinions expressed in this blog do not necessarily represent the official policy or position of Michigan’s Department of Insurance and Financials Services.   </p>
 
 <p style="text-align: left;"><font size="+3"><b>Introduction</b></font></p>
 

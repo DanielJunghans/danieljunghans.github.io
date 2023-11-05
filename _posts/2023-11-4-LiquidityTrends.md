@@ -5,7 +5,7 @@ date: 2023-11-04 4:58:00-0400
 description: 
 comments: false
 tags: Liquidity Banking Michigan
-
+thumbnail: assets/img/under300.png
 ---
 
 
