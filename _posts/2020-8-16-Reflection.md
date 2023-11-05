@@ -5,6 +5,8 @@ date: 2020-8-20 0:44:00-0100
 description: 
 comments: false
 tags: Updates
+thumbnail: assets/img/graph9.png
+
 ---
 
 <p style="text-align: center;"><font size="+3">Reflection</font></p>

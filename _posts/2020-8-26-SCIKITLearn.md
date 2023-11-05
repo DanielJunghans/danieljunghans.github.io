@@ -5,6 +5,8 @@ date: 2020-8-28 0:34:00-0200
 description: 
 comments: false
 tags: Machine-Learning
+thumbnail: assets/img/graph10.png
+
 ---
 
 
