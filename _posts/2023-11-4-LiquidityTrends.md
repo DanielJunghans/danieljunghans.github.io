@@ -61,23 +61,20 @@ Lastly, my prior article found that return on assets has a positive effect on li
     <img class="col three" src="{{ site.baseurl }}/assets/img/under300.png">
 </div>
 Figure 1. Liquidity Trends for Michigan Banks With Less than $300 Million in Total Assets
-
+<br />
 
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/TLunder300.png">
 </div>
-
 Figure 2.  Average Loans for Michigan Banks With Total Assets Less Than $300 million
-
-
-
+<br />
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/WFunder300.png">
 </div>
 Figure 3.  Average Wholesale Funding for Michigan Banks With Total Assets Less Than $300 Million
-
+<br />
 
 
 <p style="text-align: left;"><font size="+3"><b>Banks With Total Assets Between $300 Million and $1 Billion</b></font></p>
@@ -87,17 +84,19 @@ Figure 3.  Average Wholesale Funding for Michigan Banks With Total Assets Less T
     <img class="col three" src="{{ site.baseurl }}/assets/img/300_1b.png">
 </div>
 Figure 4. Liquidity Trends for Banks With Total Assets Between $300 Million and $1 Billion
+<br />
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/TL300_1b.png">
 </div>
 Figure 5.  Average Loans for Michigan Banks With Total Assets Between $300 million and $1 Billion
-
+<br />
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/WF300_1b.png">
 </div>
 Figure 6.  Average Wholesale Funding for Michigan Banks With Total Assets Between $300 Million and $1 Billion
+<br />
 
 <p style="text-align: left;"><font size="+3"><b>Banks With Total Assets Over $1 Billion</b></font></p>
 
@@ -106,15 +105,16 @@ Figure 6.  Average Wholesale Funding for Michigan Banks With Total Assets Betwee
     <img class="col three" src="{{ site.baseurl }}/assets/img/over1b.png">
 </div>
 Figure 7. Liquidity Trends for Banks With Total Assets Over $1 Billion
-
+<br />
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/TLOver_1b.png">
 </div>
 Figure 8.  Average Loans for Michigan Banks With Total Assets Over $1 Billion
-
+<br />
 
 <div class="img">
     <img class="col three" src="{{ site.baseurl }}/assets/img/WFover_1b.png">
 </div>
 Figure 9.  Average Wholesale Funding for Michigan Banks With Total Assets Over $1 Billion
+<br />
