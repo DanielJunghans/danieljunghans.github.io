@@ -9,7 +9,7 @@ thumbnail: assets/img/under300.png
 ---
 
 
-<p align="justify"><b>DISCLAIMER:</b> This is a personal blog.  Any views or opinions expressed in this blog do not necessarily represent the official policy or position of the Michigan Department of Insurance and Financial Services.   </p>
+<p align="justify"><b>DISCLAIMER:</b> This is a personal blog.  Any views or opinions expressed in this blog do not represent the official policy or position of the Michigan Department of Insurance and Financial Services.   </p>
 
 
 <p style="text-align: left;"><font size="+3"><b>Introduction</b></font></p>
