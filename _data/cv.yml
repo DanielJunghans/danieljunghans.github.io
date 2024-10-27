@@ -8,25 +8,25 @@
       institution: Michigan Department of Insurance and Financial Services
       year: 12/21 - Present
       description:
-        - Analyze financial performance, operational risks, and balance sheet trends for community banks varying in size and complexity
-        - Provide a professional assessment of all documented findings and present relevant information to the examination team
-        - Discuss outstanding examination questions and concerns with bank management
+        - Conduct in-depth analysis of financial performance, operational risks, and balance sheet trends for state-chartered banks, ranging from small community banks to complex multi-branch institutions
+        - Deliver comprehensive, professional assessments of examination findings, synthesizing key insights to inform team decision-making and regulatory recommendations
+        - Lead strategic discussions with bank management to address critical examination concerns and promote compliance improvements
 
     - title: Banking, Credit and Operational Risk Intern
       institution: Federal Reserve Board
       year: 08/21 - 12/21
       description:
-        - Upon supervisor selection, worked in part-time capacity beyond initial summer internship end date throughout the remainder of undergraduate career
-        - Used causal graph methods on firm liquidity data to create network visualizations and summary measures
-        - Tested partner analytical products and collected market data for supervisory and research purposes
+        - Selected to continue part-time work beyond initial summer internship timeline; extended through remainder of undergraduate education upon supervisor request
+        - Constructed network maps using causal graphing methods and liquidity data to provide visual summary insights
+        - Evaluated partner platforms and utilized SQL to extract market data for economic research 
 
     - title: Banking, Credit and Operational Risk Summer Intern
       institution: Federal Reserve Board
       year: 05/21 - 08/21
       description:
-        - Constructed an interactive R-Shiny web app now used by Federal Reserve analysts to supervise the activity of systematically important banking entities
-        - Presented an R-Shiny case study to the Policy Analytics group of the Division of Supervision and Regulation to showcase an example of the technology and its benefits, enabling future implementation of R-Shiny within the section
-        - Improved finance and data literacy by attending personal development workshops and intern events hosted by the Board of Governors of the Federal Reserve System
+        - Developed and deployed an interactive R-Shiny web app, enhancing Federal Reserve Analysts' supervision of systemically important banking entities
+        - Delivered a compelling R-Shiny case study to the Policy Analytics group, catalyzing wider adoption of the technology within the Division of Supervision and Regulation
+        - Strengthened finance and data literacy through targeted workshops and events hosted by the Federal Reserve Board of Governors
 
     - title: Strategic Support Associate
       institution: Jackson National Life Insurance Company
@@ -48,7 +48,7 @@
       institution: Michigan State University Summer Research Opportunities Program (SROP)
       year: 05/19 - 08/19
       description:
-        - Worked with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research
+        - Collaborated with a team of graduate students under the supervision of Dr. Charles Ofria to produce high quality evolutionary computation research
         - Contributed to a publication in the Genetic Programming Theory and Practice Workshop XVII (2020) “Characterizing the Effects of Random Subsampling on Lexicase Selection”
         - Presented my research at the Mid-Michigan Symposium for Undergraduate Research (MID-SURE) at the end of my summer research experience in 2019
 
