@@ -4,9 +4,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Financial Analyst III
+      institution: Fifth Third Bank
+      year: 02/25 - Present
+
     - title: Financial Institution Examiner
       institution: Michigan Department of Insurance and Financial Services
-      year: 12/21 - Present
+      year: 12/21 - 02/25
       description:
         - Conduct in-depth analysis of financial performance, operational risks, and balance sheet trends for state-chartered banks, ranging from small community banks to complex multi-branch institutions
         - Deliver comprehensive, professional assessments of examination findings, synthesizing key insights to inform team decision-making and regulatory recommendations
